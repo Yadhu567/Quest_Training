@@ -1,6 +1,6 @@
 package com.quest.practice_vars;
 import java.util.Scanner;
-public class Stringpalindrome {
+public class StringPalindrome {
     public static void main(String[] args) {
         System.out.println("enter a string");
         Scanner sc = new Scanner(System.in);

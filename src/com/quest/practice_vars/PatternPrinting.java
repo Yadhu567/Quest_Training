@@ -1,6 +1,6 @@
 package com.quest.practice_vars;
 import java.util.Scanner;
-public class Patternprinting {
+public class PatternPrinting {
     public static void main(String[] args) {
         System.out.println("enter the number of rows");
         Scanner sc = new Scanner(System.in);

@@ -1,6 +1,6 @@
 package com.quest.practice_vars;
 
-public class Dowhileloop {
+public class DoWhileLoop {
     public static void main(String[] args) {
         int n=0;
         do{

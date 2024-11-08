@@ -1,6 +1,6 @@
 package com.quest.practice_vars;
 
-public class Controlflow {
+public class ControlFlow {
     public static void main(String[] args) {
         int number = 10;
         if (number <= 10) {

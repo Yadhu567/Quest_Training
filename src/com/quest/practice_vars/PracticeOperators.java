@@ -1,6 +1,6 @@
 package com.quest.practice_vars;
 
-public class Practiceoperators {
+public class PracticeOperators {
     public static void main(String[] args) {
         int a=10;
         int b=20;

@@ -1,6 +1,6 @@
 package com.quest.practice_vars;
 
-public class stringMethods {
+public class StringMethods {
     public static void main(String[] args) {
         String s1 = "abcdefghij";
         String s2 = "ABCDEFGHIJ";

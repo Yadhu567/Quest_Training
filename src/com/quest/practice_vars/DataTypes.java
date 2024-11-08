@@ -1,6 +1,6 @@
 package com.quest.practice_vars;
 
-public class Datatypes {
+public class DataTypes {
     public static void main(String[] args) {
         int num=10;
         System.out.println(num);
