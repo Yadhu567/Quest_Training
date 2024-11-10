@@ -4,17 +4,17 @@ public class StringPalindrome {
     public static void main(String[] args) {
         System.out.println("enter a string");
         Scanner sc = new Scanner(System.in);
-        String s = sc.nextLine();
+        String s = sc.nextLine(); // input string
         if(s==null){
             System.out.println("enter a string");
             return;
         }
-        String newString = "";
+        StringBuilder newString = new StringBuilder();
 
         for (int i = s.length()-1; i>=0; i--) {
-            newString =newString+ s.charAt(i);
+            newString.append(s.charAt(i));
         }
-        if (newString.equals(s)) {
+        if (newString.toString().equals(s)) { // checks two strings are equal
             System.out.println("string is a palindrome");
         }
         else{

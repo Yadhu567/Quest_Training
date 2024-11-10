@@ -15,7 +15,7 @@ public class PracticeVars {
         System.out.println("firstname="+ firstName);
         System.out.println("Vote_age=" + VOTE_AGE);
         practiceConversion();
-        stringConcaination();
+        stringConcatination();
         stringMethods();
     }
     private static void practiceConversion(){
@@ -26,7 +26,7 @@ public class PracticeVars {
         int round=(int)b;
         System.out.println("sum="+sum);
     }
-    private static void stringConcaination(){
+    private static void stringConcatination(){
         String s1="Hello";
         String s2="World";
         String s3=s1+" "+s2;
@@ -37,11 +37,11 @@ public class PracticeVars {
     private static void stringMethods(){
         String s1="Hello";
         String s2="World";
-        String s4= new String("Hello World");
+        String s4= new String("hello world");
         String s3= new String("john doe");
         System.out.println(s3.length());
-        System.out.println(s3.equalsIgnoreCase(s2));
+        System.out.println(s3.equalsIgnoreCase(s2)); // checks two strings are equal by ignoring the case
         System.out.println(s3.equals(s2));
-        System.out.println(s4==s1);
+        System.out.println(s4.equals(s1));
     }
 }

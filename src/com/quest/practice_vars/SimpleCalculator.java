@@ -2,15 +2,14 @@ package com.quest.practice_vars;
 import java.util.Scanner;
 import java.lang.Math;
 
-class Simplecalculator {
+class SimpleCalculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        boolean s = true;
+        boolean s = true; // flag to check user wants to continue or not
         double result = 0;
-
         while (s) {
             System.out.println("Enter your choice: 1. Addition 2. Subtraction 3. Multiplication 4. Division 5. Square Root 6. Clear Current Result 7. Exit");
-            int ch = sc.nextInt();
+            int ch = sc.nextInt(); // represents the choice
 
             switch (ch) {
                 case 1:
@@ -54,6 +53,7 @@ class Simplecalculator {
                     result = 0;
                     System.out.println("Result cleared. Current result: " + result);
                     break;
+                // for exiting from the process 
                 case 7:
                     s = false;
                     break;
