@@ -12,7 +12,7 @@ public class StringMethods {
         System.out.println(s1.equalsIgnoreCase("ABCDEFGHIJ"));
         System.out.println(s1.toUpperCase());
         System.out.println(s2.toLowerCase());
-        System.out.println(s3.trim()); // removes leading and trailing whitespaces
+        System.out.println(s3.trim()); // removes leading and trailing whitespaces 
         System.out.println(s1.concat(s2));
         System.out.println(s1.contains("c"));
         System.out.println(s3.startsWith("a"));

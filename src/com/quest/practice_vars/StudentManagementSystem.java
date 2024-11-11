@@ -10,7 +10,7 @@ public class StudentManagementSystem {
 
             System.out.println("enter the number of students");
             Scanner sc = new Scanner(System.in);
-            int n = 0; // number od students
+            int n = 0; // number of students
             try {
                 n = sc.nextInt();
             } catch (Exception e) {

@@ -1,5 +1,5 @@
 package com.quest.practice_vars;
-
+import java.util.Scanner;
 public class DataTypes {
     public static void main(String[] args) {
         int num=10;
