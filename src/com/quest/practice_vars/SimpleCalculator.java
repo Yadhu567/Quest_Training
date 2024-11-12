@@ -10,7 +10,6 @@ class SimpleCalculator {
         while (s) {
             System.out.println("Enter your choice: 1. Addition 2. Subtraction 3. Multiplication 4. Division 5. Square Root 6. Clear Current Result 7. Exit");
             int ch = sc.nextInt(); // represents the choice
-
             switch (ch) {
                 case 1:
                     System.out.println("Enter the number to be added:");
