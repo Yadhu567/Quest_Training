@@ -7,7 +7,6 @@ public class StudentManagementSystem {
 
     public static void main(String[] args) {
         while (true) {
-
             System.out.println("enter the number of students");
             Scanner sc = new Scanner(System.in);
             int n = 0; // number of students

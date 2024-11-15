@@ -15,6 +15,7 @@ public class WarehouseInventory {
         };
 
         // Step 2: Call methods to perform the required tasks
+
         // Task 1: Calculate and print total stock for each product
         calculateTotalStock(productNames, warehouseStock, branchStock);
 
