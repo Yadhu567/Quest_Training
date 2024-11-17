@@ -25,6 +25,7 @@ public class PracticeVars {
         double sum=a+b;
         int round=(int)b;
         System.out.println("sum="+sum);
+
     }
     private static void stringConcatination(){
         String s1="Hello";
@@ -33,6 +34,10 @@ public class PracticeVars {
         System.out.printf(s3);
         int age=20;
         System.out.println("name="+s3+"age="+age);
+        s1.length();
+        int[] arr=new int[10];
+        int a=arr.length;
+        
     }
     private static void stringMethods(){
         String s1="Hello";

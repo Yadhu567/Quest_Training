@@ -84,7 +84,7 @@ select first_name,last_name,email from borrowers where borrower_id in
 update books set price=20.55 where title='The Great Gatsby';
 
 --Delete the book from the Books table where title = 'Moby Dick'.
-delete from Loans where book_id = ( select book_id from Books where title = "moby dick");
+delete from Loans where book_id = ( select book_id from Books where title = 'moby dick');
 delete from books where title='moby dick';
 
 --Alter the Books table to add a new column genre of type VARCHAR(50).

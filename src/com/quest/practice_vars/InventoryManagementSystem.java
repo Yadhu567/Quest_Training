@@ -128,7 +128,7 @@ public class InventoryManagementSystem {
     // Track Out-of-Stock Products
     private static void outOfStockProducts(String[] products, int[][] inventory) {
         System.out.println("Out-of-Stock Products:");
-        boolean found = false; // flag to check out of stock product found or not
+        boolean found = false; // flag to check out-of-stock product found or not
 
         for (int i = 0; i < products.length; i++) {
             if (inventory[i][0] == 0) {

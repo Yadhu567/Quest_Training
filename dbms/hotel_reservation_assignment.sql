@@ -109,7 +109,7 @@ insert into roomassignments(staff_id, room_id, assignment_date, task_description
 
  
 -- Retrieve all information about rooms available on a specific floor.
-select * from rooms as r join reservations as s on r.room_id=s.room_id 
+select * from rooms as r join reservations as s on r.room_id=s.room_id p
 where floor_number=2 and r.status='available';
 
 

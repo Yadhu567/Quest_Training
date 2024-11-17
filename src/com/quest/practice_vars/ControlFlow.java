@@ -25,6 +25,7 @@ public class ControlFlow {
                 System.out.println("no day");
         }
         testForloop();
+        testWhileloop();
     }
     static void testForloop(){
         for(int i = 0; i < 10; i++){
