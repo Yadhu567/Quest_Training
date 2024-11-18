@@ -43,7 +43,7 @@ public class CommodityStockAnalyser extends StockAnalyser {
         int currLen = 1;
         int start = 0;
         int end = 0;
-        int tempStart = 0;
+        int tempStart = 0; // start index of current subsequence
         for (int i = 1; i < prices.length; i++) {
             if (prices[i] > prices[i - 1]) {
                 currLen++;
