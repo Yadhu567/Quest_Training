@@ -12,7 +12,7 @@ public class ArrayMethods {
             System.out.println("enter the element for position"+i);
             searchArray[i] = sc.nextInt();
         }
-        System.out.println("enter the elements to search");
+        System.out.println("enter the element to search");
         searchValue = sc.nextInt();
         int pos=linearSearch(searchArray, searchValue); // calling the method to search for an element in the array
         if (pos == -1) {

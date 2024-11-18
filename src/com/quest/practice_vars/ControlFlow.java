@@ -41,7 +41,7 @@ public class ControlFlow {
     }
     static void testWhileloop(){
         int n=5;
-        while(n<0){
+        while(n>0){
             System.out.println("hello");
             n--;
         }

@@ -7,6 +7,7 @@ public class JavaMethodExamples {
         obj.display("hello");
         int result =obj.add(2,4);
         System.out.println(result);
+
     }
     /**
     * displays string
