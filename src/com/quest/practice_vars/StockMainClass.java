@@ -1,8 +1,9 @@
-package com.quest.oops;
+package com.quest.practice_vars;
 import java.util.Scanner;
-public class MainClass {
+public class StockMainClass {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        // equity stock
         System.out.println("Enter the details of equity stock");
         System.out.println("enter stock name");
         String equityName = sc.nextLine();
@@ -19,6 +20,7 @@ public class MainClass {
             equityPrices[i] = integerValidation(sc); // for validating integer
         }
         sc.nextLine();
+        // commodity stock
         System.out.println("Enter the details of equity stock");
         System.out.println("enter stock name");
         String commodityName = sc.nextLine();
@@ -42,7 +44,7 @@ public class MainClass {
 
         System.out.println("comparison results");
         double equityAvg= equityStock.calculateAveragePrice(); // to store the  equity stock average
-        double commodityAvg= commodityStock.calculateAveragePrice(); // // to store the  commodity stock average
+        double commodityAvg= commodityStock.calculateAveragePrice(); //to store the  commodity stock average
         if (equityAvg>commodityAvg) {
             System.out.println("Stock with Highest Average Price: Equity Stock - " + equityName + " with Average Price: " + equityAvg);
         } else{

@@ -1,10 +1,10 @@
-package com.quest.oops;
+package com.quest.practice_vars;
 
-public class EquityStockAnalyser extends StockAnalyser {
-    String sector;
-    public EquityStockAnalyser(String stockName, String stockSymbol, int[] prices, String sector) {
+public class CommodityStockAnalyser extends StockAnalyser {
+    public String commodityType;
+    public CommodityStockAnalyser(String stockName, String stockSymbol, int[] prices, String commodityType) {
         super(stockName,stockSymbol,prices); //calls the parent class method
-        this.sector = sector;
+        this.commodityType = commodityType;
     }
     @Override
     public int findMaxPrice() {
@@ -43,8 +43,7 @@ public class EquityStockAnalyser extends StockAnalyser {
         int currLen = 1;
         int start = 0;
         int end = 0;
-        int tempStart = 0;
-
+        int tempStart = 0; // start index of current subsequence
         for (int i = 1; i < prices.length; i++) {
             if (prices[i] > prices[i - 1]) {
                 currLen++;
@@ -65,10 +64,10 @@ public class EquityStockAnalyser extends StockAnalyser {
 
     @Override
     public void displayAnalysis() {
-        System.out.println("Analysis for Equity Stock:");
+        System.out.println("Analysis for commodity Stock:");
         System.out.println("Stock Name: " + stockName);
         System.out.println("Stock Symbol: " + stockSymbol);
-        System.out.println("Sector: " + sector);
+        System.out.println("Sector: " + commodityType);
         System.out.println("Highest Price: " + findMaxPrice());
         System.out.println("Lowest Price: " + findMinPrice());
         System.out.println("Average Price: " + calculateAveragePrice());
