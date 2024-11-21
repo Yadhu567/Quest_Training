@@ -1,5 +1,4 @@
 package com.quest.oops.WeatherMonitoringSystem;
-import java.security.PublicKey;
 import java.util.Scanner;
 public class Mainclass {
     public static final int MAX_TEMP=150;
@@ -12,32 +11,23 @@ public class Mainclass {
         int maxCities = integerValidation(sc); // Validate the maximum cities input
         WeatherManagement weatherObject = new WeatherManagement(maxCities);
         while(true) {
-            System.out.println("--- Weather Monitoring System ---");
-            System.out.println("""
-                    1. Add Weather Data of City
-                    2. Display Weather Data of All Cities
-                    3. Weather Data of City with Highest Temperature
-                    4. Weather Data of City with Lowest Temperature
-                    5. Weather Data of Cities with Humidity > 80%
-                    6. List of Weather Data of Cities bases on weather conditions
-                    7. Average Temperature
-                    8. Temperature Warnings
-                    9. Humidity Warnings
-                    10. Exit
-                    Choose an option: 
-                """);
-            int choice = integerValidation(sc); // Validate the menu choice
+            System.out.println("Weather Monitoring System");
+            System.out.println("1. Add Weather Data of City 2. Display Weather Data of All Cities " +
+            "3. Weather Data of City with Highest Temperature 4. Weather Data of City with Lowest Temperature"+
+            "5. Weather Data of Cities with Humidity greater than 80% 6. List of Weather Data of Cities bases on weather conditions"+
+            "7. Average Temperature 8. Temperature Warnings 9. Humidity Warnings 10. Exit \n Choose an option:");
+            int choice=integerValidation(sc); // Validate the menu choice
             sc.nextLine();
             switch(choice) {
                 case 1:
-                    System.out.print("Enter city name: ");
+                    System.out.print("Enter city name:");
                     String cityName = sc.nextLine();
-                    System.out.print("Enter current temperature (°C): ");
+                    System.out.print("Enter current temperature in °C: ");
                     int temperature = tempValidation(sc); // Validate temperature input
-                    System.out.print("Enter current humidity (%): ");
+                    System.out.print("Enter current humidity in %: ");
                     int humidity = humValidation(sc); // Validate humidity input
                     sc.nextLine(); // Consume newline
-                    System.out.print("Enter weather condition (e.g., Sunny, Rainy, Cloudy ): ");
+                    System.out.print("Enter weather condition in Sunny, Rainy, Cloudy : ");
                     String weatherCondition = sc.nextLine();
                     CityWeatherData city = new CityWeatherData(cityName, temperature, humidity, weatherCondition);
                     weatherObject.addCityWeatherData(city);
@@ -73,7 +63,7 @@ public class Mainclass {
                     break;
 
                 case 10 :
-                    System.out.println("---exiting----");
+                    System.out.println("exiting");
                     return; // Exit the condition
 
                 default:
@@ -97,7 +87,7 @@ public class Mainclass {
             if (temp >= MIN_TEMP && temp <= MAX_TEMP) {
                 return temp;
             } else {
-                System.out.println("Invalid temperature. Please enter a temperature between " + MIN_TEMP + " and " + MAX_TEMP + " °C.");
+                System.out.println("Invalid value, Please enter a value between "+MIN_TEMP+" and "+MAX_TEMP);
             }
         }
     }
@@ -110,7 +100,7 @@ public class Mainclass {
             if (hum >= MIN_HUM && hum <= MAX_HUM) {
                 return hum;
             } else {
-                System.out.println("Invalid humidity. Please enter a humidity between " + MIN_HUM + " and " + MAX_HUM + " %.");
+                System.out.println("Invalid value, Please enter a value between "+MIN_HUM+" and "+MAX_HUM);
             }
         }
     }
