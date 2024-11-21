@@ -2,13 +2,13 @@ package com.quest.oops.libraryassignment;
 import java.util.Scanner;
 public class MainClass {
     public static void main(String[] args) {
-        Library library = new Library(100, 50); //maximum books and maximum members
+        Library library = new Library(100, 50);
         Scanner sc = new Scanner(System.in);
         while(true) {
             System.out.println("Choose an option 1. Add Book 2.Add Members 3. Search Book 4. Borrow Book 5. Return Book "+
                     "6. Display Available Books 7. Display All Members 8. Exit");
-            int choice = integerValidation(sc); // to validate integer
-            sc.nextLine(); // to clear scanner
+            int choice = integerValidation(sc);
+            sc.nextLine();
             switch (choice) {
                 case 1 :
                     System.out.print("Enter ISBN: ");
@@ -18,7 +18,7 @@ public class MainClass {
                     System.out.print("Enter Author: ");
                     String author = sc.nextLine();
                     System.out.print("Enter Publication Year: ");
-                    int year = integerValidation(sc); // to validate integer
+                    int year = integerValidation(sc);
                     System.out.print("Enter Book is available or not available: ");
                     boolean available = sc.nextBoolean();
                     sc.nextLine();
@@ -31,8 +31,6 @@ public class MainClass {
                     String name = sc.nextLine();
                     System.out.print("Enter ContactInfo: ");
                     String contactInfo = sc.nextLine();
-                    sc.nextLine();
-                    System.out.println("enter the ISBN of borrowed books");
                     library.addMember(new LibraryMember(memberId, name, contactInfo));
                     break;
                 case 3 :
@@ -67,18 +65,19 @@ public class MainClass {
                     library.displayAllMembers();
                     break;
                 case 8 :
-                    return; // to exit from loop
+                    return;
 
                 default:
                     System.out.println("Invalid choice. Please try again.");
             }
         }
     }
-    // integer validation
+
+
     private static int integerValidation(Scanner sc) {
         while (!sc.hasNextInt()) {
             System.out.println("Invalid input. Please enter a valid integer:");
-            sc.next(); // to clear scanner
+            sc.next();
         }
         return sc.nextInt();
     }

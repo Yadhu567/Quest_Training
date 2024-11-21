@@ -1,18 +1,17 @@
 package com.quest.oops.libraryassignment;
 
-public class Library extends LibraryOperation{
-    private final Book[] books; // stores array of book objects
-    private final LibraryMember[] members; // stores array of member objects
+public class Library extends LibraryMethods {
+    private final Book[] books;
+    private final LibraryMember[] members;
     private int bookCount;
     private int memberCount;
 
     public Library(int maxBooks, int maxMembers) {
         books = new Book[maxBooks];
         members = new LibraryMember[maxMembers];
-        bookCount = 0; //initial count zero
-        memberCount = 0; //initial count zero
+        bookCount = 0;
+        memberCount = 0;
     }
-
 
     public void addBook(Book book) {
         if (bookCount < books.length) {
@@ -22,7 +21,6 @@ public class Library extends LibraryOperation{
             System.out.println("Library is full, cannot add more books.");
         }
     }
-
 
     public void addMember(LibraryMember member) {
         if (memberCount < members.length) {
@@ -38,6 +36,16 @@ public class Library extends LibraryOperation{
         for (int i = 0; i < bookCount; i++) {
             if (books[i].getIsbn().equalsIgnoreCase(isbn)){
                 return books[i];
+            }
+        }
+        return null;
+    }
+
+    @Override
+    public LibraryMember searchMember(String memberId) {
+        for (int i = 0; i < memberCount; i++) {
+            if (members[i].getMemberId().equalsIgnoreCase(memberId)) {
+                return members[i];
             }
         }
         return null;
@@ -71,15 +79,6 @@ public class Library extends LibraryOperation{
             }
         }
         System.out.println("Book return operation failed.");
-    }
-    @Override
-    public LibraryMember searchMember(String memberId) {
-        for (int i = 0; i < memberCount; i++) {
-            if (members[i].getMemberId().equalsIgnoreCase(memberId)) {
-                return members[i];
-            }
-        }
-        return null;
     }
 
     @Override

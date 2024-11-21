@@ -1,6 +1,6 @@
 package com.quest.oops.libraryassignment;
 
-public abstract class LibraryOperation {
+public abstract class LibraryMethods {
         public abstract Book searchBook(String query);
         public abstract LibraryMember searchMember(String memberId);
         public abstract void borrowBook(String isbn, String memberId);

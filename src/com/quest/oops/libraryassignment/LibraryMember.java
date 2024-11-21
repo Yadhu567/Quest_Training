@@ -11,10 +11,10 @@ public class LibraryMember {
         setName(name);
         setContactInfo(contactInfo);
         setBorrowedBooks(new String[3]);
-
     }
     public void setMemberId(String memberId) {
         this.memberId = memberId;
+
     }
     public void setName(String name) {
         this.name = name;
@@ -38,22 +38,21 @@ public class LibraryMember {
     public String[] getBorrowedBooks() {
         return borrowedBooks;
     }
-    //method to borrow book
+
     public void borrowBook(String isbn) {
         for (int i = 0; i < borrowedBooks.length; i++) {
             if (borrowedBooks[i] == null) {
                 borrowedBooks[i] = isbn;
-                return;
             }
         }
     }
-    // method to return book
     public void returnBook(String isbn) {
         for (int i = 0; i < borrowedBooks.length; i++) {
             if (isbn.equals(borrowedBooks[i])) {
                 borrowedBooks[i] = null;
-                return;
             }
         }
     }
+
+
 }

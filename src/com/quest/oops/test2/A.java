@@ -21,4 +21,5 @@ public class A extends B {
     static void add(int a){
         System.out.println("A inside static method"+a);
     }
+
 }
