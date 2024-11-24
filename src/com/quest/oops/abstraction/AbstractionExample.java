@@ -2,9 +2,9 @@ package com.quest.oops.abstraction;
 
 public class AbstractionExample {
     public static void main(String[] args) {
-        Student online=new OnlineStudent();
-        Student offline=new OfflineStudent();
-        Student regular=new RegularStudent();
+        Student online=new OnlineStudent(); // upcasting
+        Student offline=new OfflineStudent(); // upcasting
+        Student regular=new RegularStudent();  // upcasting
         online.attendClass();
         offline.attendClass();
         regular.attendClass();
