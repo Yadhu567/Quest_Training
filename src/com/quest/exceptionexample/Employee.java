@@ -23,14 +23,14 @@ public class Employee {
         this.name=name;
     }
     public void setAge(int age) throws InvalidInputException {
-        if(age<18){ // for validaing age
+        if(age<18){ // for validating age
             throw new InvalidInputException("age must be greater than 18");
         }else{
             this.age=age;
         }
     }
     public void setSalary(double salary) throws InvalidInputException {
-        if(salary<0){ // for validaing salary
+        if(salary<0){ // for validating salary
             throw new InvalidInputException("salary must be a positive value");
         }else{
             this.salary=salary;

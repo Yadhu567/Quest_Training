@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c304d3fa-b057-4623-8372-e5494193874d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/quest/customexception/CustomException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/oops/exception/Bonus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/exception/Bonus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/oops/exception/CustomException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/oops/exception/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/exception/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/oops/exception/ExceptionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/exception/ExceptionExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/oops/exception/ExceptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/exception/ExceptionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/oops/exception/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/exception/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/oops/exception/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/exception/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/oops/test1/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/oops/test1/TestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/WrapperClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_vars/WrapperClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +37,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.MainClass.executor": "Run",
+    "Application.OutOfMemmoryError.executor": "Run",
     "Application.RandomClass.executor": "Debug",
     "Application.StackOverFlowError.executor": "Run",
     "Application.TestClass.executor": "Run",
