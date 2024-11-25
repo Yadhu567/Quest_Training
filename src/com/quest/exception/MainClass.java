@@ -1,4 +1,4 @@
-package com.quest.oops.exception;
+package com.quest.exception;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 public class MainClass {

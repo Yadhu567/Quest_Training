@@ -1,4 +1,4 @@
-package com.quest.oops.exception;
+package com.quest.exception;
 
 public class Manager extends Employee implements Bonus{
     public Manager( String name,int age, double salary) {

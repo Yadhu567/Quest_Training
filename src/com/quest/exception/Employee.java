@@ -1,4 +1,4 @@
-package com.quest.oops.exception;
+package com.quest.exception;
 
 public class Employee {
     private String name;

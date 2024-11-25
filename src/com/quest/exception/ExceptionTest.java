@@ -1,4 +1,4 @@
-package com.quest.oops.exception;
+package com.quest.exception;
 import java.lang.ArithmeticException;
 public class ExceptionTest {
     public static void main(String[] args) {
