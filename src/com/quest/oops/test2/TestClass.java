@@ -24,6 +24,16 @@ public class TestClass {
                 System.out.println(i);
             }
         }
+        int[] newArr=new int[arr.length];
+        int[] newArr1=new int[arr.length];
+
+        for(int i=0;i< arr.length;i++){
+            newArr[i]=arr[i]*2;
+        }
+        for(int i=1;i<10;i++){
+
+        }
+
     }
 
 }

@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class FileOperations {
     public static void main(String[] args) {
-        File fileObject = new File("file2.txt");
+        File fileObject = new File("destination.txt");
         try {
             System.out.println("try started");
             if (fileObject.exists()) {

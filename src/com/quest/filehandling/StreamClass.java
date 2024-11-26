@@ -4,11 +4,11 @@ import java.io.*;
 public class StreamClass {
     public static void main(String[] argk) throws IOException {
         try {
-            FileInputStream strmObj = new FileInputStream("file1.txt");
+            FileInputStream strmObj = new FileInputStream("source.txt");
             System.out.println("file created successfully");
             int c;
             String s1="input as streams";
-            FileOutputStream outObj= new FileOutputStream("file1.txt");  // if object created removes all contents
+            FileOutputStream outObj= new FileOutputStream("source.txt");  // if object created removes all contents
             outObj.write(s1.getBytes());
             outObj.write(strmObj.read());
             while ((c=strmObj.read())!=-1) {

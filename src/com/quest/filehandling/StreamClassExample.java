@@ -7,8 +7,8 @@ import java.io.File;
 public class StreamClassExample {
     public static void main(String[] args){
         try{
-            File fileObj=new File("file1.txt");
-            FileInputStream inputObj=new FileInputStream("file1.txt");
+            File fileObj=new File("source.txt");
+            FileInputStream inputObj=new FileInputStream("source.txt");
             FileOutputStream outputObj=new FileOutputStream(fileObj,true);
             Scanner sc=new Scanner(System.in);
             String s1;

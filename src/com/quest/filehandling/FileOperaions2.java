@@ -5,7 +5,7 @@ import java.io.IOException;
 public class FileOperaions2 {
     public static void main(String[] args){
         try {
-            FileWriter fileObject = new FileWriter("file1.txt");
+            FileWriter fileObject = new FileWriter("source1.txt");
             fileObject.write("hello world, file writer example");
             fileObject.append('o');
             CharSequence charSq=new CharSequence() {

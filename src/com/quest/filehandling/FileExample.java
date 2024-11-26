@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class FileExample {
     public static void main(String[] args) {
-        File fileObj = new File("file1.txt");
+        File fileObj = new File("source.txt");
         try {
             if (fileObj.createNewFile()||fileObj.exists()) {
                 FileWriter fileWrtObj = new FileWriter(fileObj);
