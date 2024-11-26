@@ -9,7 +9,7 @@ public class Manager extends Employee {
         }else{
             this.teamSize=teamSize;
         }
-    }
+    } 
   // overrides toString method
     @Override
     public String toString() {
