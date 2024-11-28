@@ -20,5 +20,6 @@ public class HashSetClass {
         System.out.println(hashSet.isEmpty());
         System.out.println(hashSet.contains(3));
         hashSet.clear();
+        System.out.println(hashSet);
     }
 }

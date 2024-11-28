@@ -7,7 +7,7 @@ import java.util.Map;
 public class HashMapExample {
     public static void main(String[] args) {
         HashMap<Integer,String> hashMap=new HashMap<>();
-        hashMap.put(1,"banana");
+        hashMap.put(5,"banana");
         hashMap.put(2,"apple");
         hashMap.put(3,"orange");
         hashMap.put(4,"grape");
@@ -25,5 +25,6 @@ public class HashMapExample {
         System.out.println(hashMap.remove(3,"orange"));
         System.out.println(hashMap.size());
         System.out.println(hashMap.isEmpty());
+        hashMap.clear();
     }
 }

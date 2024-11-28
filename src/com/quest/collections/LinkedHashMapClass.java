@@ -6,7 +6,7 @@ import java.util.Map;
 public class LinkedHashMapClass {
     public static void main(String[] args) {
         LinkedHashMap<Integer,String> linkedHashMap=new LinkedHashMap<>();
-        linkedHashMap.put(1,"Orange");
+        linkedHashMap.put(1,"orange");
         linkedHashMap.put(2,"mango");
         linkedHashMap.put(3,"blueberry");
         linkedHashMap.put(4,"strawberry");
@@ -24,5 +24,15 @@ public class LinkedHashMapClass {
         System.out.println(linkedHashMap.remove(2,"mango"));
         System.out.println(linkedHashMap.isEmpty());
         System.out.println(linkedHashMap.size());
+        System.out.println(linkedHashMap.containsValue("strawberry"));
+        System.out.println(linkedHashMap.replace(1,"orange","grapes"));
+
+        for(String s:linkedHashMap.values()){
+            System.out.println(s);
+        }
+        System.out.println(linkedHashMap);
+        linkedHashMap.forEach((k,v)->{
+            System.out.println(k+" "+v);
+        });
     }
 }
