@@ -74,8 +74,8 @@ public class MainClass {
 
             //generate bill
             System.out.println("Enter Subscriber ID to generate bill for postpaid only");
-            String subIdForBill = sc.nextLine();
-            subscriberManagement.generateBills(subIdForBill);
+            String billId = sc.nextLine();
+            subscriberManagement.generateBills(billId);
 
         } catch (ArithmeticException e) {
             System.out.println("Arithmetic Exception error occurred"+e.getMessage());
