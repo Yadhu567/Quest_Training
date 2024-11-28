@@ -9,7 +9,7 @@ public class SubscriberManagement implements SubscriberOperations {
     public void addSubscriber(Subscribers subscriber) {
         if (subscriber == null) {
             System.out.println("Invalid subscriber. Subscriber or Subscriber ID cannot be null.");
-            return; // if id is  null  then returns
+            return; // if id is null then returns
         }
         for(Subscribers sub: subscribersList){
             if(sub.getsubscriberId().equalsIgnoreCase(subscriber.getsubscriberId())){

@@ -20,9 +20,11 @@ public class CallHistoryManagement implements CallHistoryOperations{
         ArrayList<CallHistory> result = new ArrayList<>(); // for storing result
         for (CallHistory record : callHistories) {
             if (record.getsubscriberId().equals(subscriberId)) {
+                System.out.println(record);
                 result.add(record);
             }
         }
+
         return result;
     }
 }
