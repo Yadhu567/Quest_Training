@@ -80,13 +80,13 @@ public class SubscriberManagement implements SubscriberOperations {
         for (CallHistory record : histories) {
             switch (record.getCallType()) {
                 case "Local":
-                    totalAmount+=record.getDuration() * 1;
+                    totalAmount+=record.getDuration()*1;
                     break;
                 case "STD":
-                    totalAmount+=record.getDuration() * 2;
+                    totalAmount+=record.getDuration()*2;
                     break;
                 case "ISD":
-                    totalAmount+=record.getDuration() * 5;
+                    totalAmount+=record.getDuration()*5;
                     break;
             }
         }

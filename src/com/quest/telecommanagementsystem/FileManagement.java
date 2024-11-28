@@ -3,12 +3,10 @@ import java.util.ArrayList;
 import java.io.FileWriter;
 import java.io.IOException;
 public class FileManagement {
-    private static final String SUBSCRIBER_FILE = "subscribers.txt";
-    private static final String CALL_HISTORY_FILE = "callhistory.txt";
 
     // Saving subscribers
     public void saveSubscriber(Subscribers subscriber) {
-            try (FileWriter writer = new FileWriter(SUBSCRIBER_FILE, true)) { // Append mode
+            try (FileWriter writer = new FileWriter("subscriber.txt", true)) {
                 writer.write(subscriber.getsubscriberId() + "," +
                         subscriber.getName() + "," +
                         subscriber.getPhoneNumber() + "," +
@@ -22,7 +20,7 @@ public class FileManagement {
 
     // Saving call history
     public void saveCallHistory(CallHistory callHistory) {
-        try (FileWriter writer = new FileWriter(CALL_HISTORY_FILE, true)) {
+        try (FileWriter writer = new FileWriter("callhistory.txt", true)) {
             writer.write(callHistory.getsubscriberId() + "," +
                     callHistory.getCallType() + "," +
                     callHistory.getDuration() + "," +
