@@ -3,13 +3,13 @@ package com.quest.telecommanagementsystem;
 import java.io.Serializable;
 import java.time.LocalDateTime;
 
-public class CallHistory implements Serializable {
+public class Calls implements Serializable {
     private String subscriberId;
     private String callType;
     private int duration;
     private LocalDateTime timeStamp;
 
-    public CallHistory(String subscriberId, String callType, int duration, LocalDateTime timeStamp) {
+    public Calls(String subscriberId, String callType, int duration, LocalDateTime timeStamp) {
         setsubscriberId(subscriberId);
         setCallType(callType);
         setDuration(duration);

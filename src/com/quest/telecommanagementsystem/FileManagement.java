@@ -1,13 +1,12 @@
 package com.quest.telecommanagementsystem;
-import java.util.ArrayList;
 import java.io.FileWriter;
 import java.io.IOException;
 public class FileManagement {
 
     // Saving subscribers
     public void saveSubscriber(Subscribers subscriber) {
-            try (FileWriter writer = new FileWriter("subscriber.txt", true)) {
-                writer.write(subscriber.getsubscriberId() + "," +
+            try (FileWriter writer = new FileWriter("subscribers.txt", true)) {
+                writer.write(subscriber.getSubscriberId() + "," +
                         subscriber.getName() + "," +
                         subscriber.getPhoneNumber() + "," +
                         subscriber.getPlanType() + "," +
@@ -16,11 +15,12 @@ public class FileManagement {
             } catch (IOException e) {
                 System.out.println("Error in saving subscriber: " + e.getMessage());
             }
+
         }
 
     // Saving call history
-    public void saveCallHistory(CallHistory callHistory) {
-        try (FileWriter writer = new FileWriter("callhistory.txt", true)) {
+    public void saveCallHistory(Calls callHistory) {
+        try (FileWriter writer = new FileWriter("call history.txt", true)) {
             writer.write(callHistory.getsubscriberId() + "," +
                     callHistory.getCallType() + "," +
                     callHistory.getDuration() + "," +

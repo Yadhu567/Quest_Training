@@ -10,14 +10,14 @@ public class Subscribers implements Serializable {
     private double balance;
 
     public Subscribers(String subscriberId, String name, String phoneNumber, String planType, double balance){
-        setsubscriberId(subscriberId);
+        setSubscriberId(subscriberId);
         setName(name);
         setPhoneNumber(phoneNumber);
         setPlanType(planType);
         setBalance(balance);
     }
     //getters and setters
-    public String getsubscriberId() {
+    public String getSubscriberId() {
         return subscriberId;
     }
 
@@ -37,7 +37,7 @@ public class Subscribers implements Serializable {
         return balance;
     }
 
-    public void setsubscriberId(String subscriberId) {
+    public void setSubscriberId(String subscriberId) {
         this.subscriberId = subscriberId;
     }
 
@@ -61,7 +61,7 @@ public class Subscribers implements Serializable {
     @Override
     public String toString() {
         return "subscriber{" +
-                "subscriberId=" + getsubscriberId() +
+                "subscriberId=" + getSubscriberId() +
                 ", name='" + getName() + '\'' +
                 ", phoneNumber='" + getPhoneNumber() + '\'' +
                 ", planType='" + getPlanType() + '\'' +

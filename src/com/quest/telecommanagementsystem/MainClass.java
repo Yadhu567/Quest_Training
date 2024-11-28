@@ -52,7 +52,7 @@ public class MainClass {
             int duration = integerValidation(sc);
             sc.nextLine();//clear input
 
-            CallHistory callHistory = new CallHistory(subIdForCall, callType, duration, java.time.LocalDateTime.now());
+            Calls callHistory = new Calls(subIdForCall, callType, duration, java.time.LocalDateTime.now());
             callHistoryManagement.addCallHistory(callHistory);
 
             fileManagement.saveCallHistory(callHistory); //saving call history to file
