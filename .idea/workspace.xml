@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c304d3fa-b057-4623-8372-e5494193874d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/source.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/filehandling/FileExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/filehandling/FileExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/filehandling/FileOperaions2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/filehandling/FileOperaions2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/filehandling/FileOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/filehandling/FileOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/filehandling/StreamClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/filehandling/StreamClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/filehandling/StreamClassExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/filehandling/StreamClassExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/HashMapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/HashMapExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/quest/oops/test2/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/oops/test2/TestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/DuplicatElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_vars/DuplicatElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/StringDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_vars/StringDuplicate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/com/quest/practice_vars/StringDuplicate.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
@@ -46,10 +45,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BufferedClass.executor": "Run",
+    "Application.DateTimeClass.executor": "Run",
+    "Application.DuplicatElements.executor": "Run",
     "Application.FIleExample.executor": "Run",
     "Application.FileExample.executor": "Run",
     "Application.FileOperaions2.executor": "Run",
     "Application.FileOperations.executor": "Run",
+    "Application.HashMapExample.executor": "Run",
+    "Application.HashSetClass.executor": "Run",
+    "Application.LinkedHashMapClass.executor": "Run",
+    "Application.LinkedHashSetClass.executor": "Run",
     "Application.LinkedListClass.executor": "Run",
     "Application.ListClass.executor": "Run",
     "Application.ListExample.executor": "Run",
@@ -57,11 +62,15 @@
     "Application.Mainclass.executor": "Run",
     "Application.OutOfMemmoryError.executor": "Run",
     "Application.RandomClass.executor": "Debug",
+    "Application.SetClass.executor": "Run",
+    "Application.SetExampleClass.executor": "Run",
+    "Application.StackClass.executor": "Run",
     "Application.StackOverFlowError.executor": "Run",
     "Application.StreamClass.executor": "Run",
     "Application.StreamClassExample.executor": "Run",
     "Application.StringDuplicate.executor": "Run",
     "Application.TestClass.executor": "Run",
+    "Application.TreeSetClass.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",

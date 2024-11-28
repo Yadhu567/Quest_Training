@@ -31,8 +31,9 @@ public class TestClass {
             newArr[i]=arr[i]*2;
         }
         for(int i=1;i<10;i++){
-
+                newArr[i]=i*2;
         }
+
 
     }
 

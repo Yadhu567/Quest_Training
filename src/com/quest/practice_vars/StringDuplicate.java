@@ -2,17 +2,23 @@ package com.quest.practice_vars;
 
 public class StringDuplicate {
     public static void main(String[] args) {
-        String[] arr={"ss","dd","ss","ee","ff","dd"};
+        String[] arr={"java","python","c++","python","kotlin","java","python","c","python"};
+        boolean[] visited=new boolean[arr.length];
         for(int i=0;i< arr.length;i++){
-            boolean f=false;
-            for(int j=0;j<i;j++){
+            if(visited[i]){
+                continue;
+            }
+            boolean flag=false;
+            for(int j=i+1;j< arr.length;j++){
                 if(arr[i].equals(arr[j])){
-                    f=true;
+                    visited[j]=true;
+                    flag=true;
                 }
             }
-            if(f){
+            if(flag){
                 System.out.println(arr[i]);
             }
+
         }
     }
 }

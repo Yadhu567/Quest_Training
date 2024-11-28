@@ -31,13 +31,29 @@ public class DuplicatElements {
 //            i++;
 //        }
 //        System.out.println("The number of duplicate elements are:"+count);
-        Arrays.sort(arr);
+       /* Arrays.sort(arr);
         for(int i=1;i<arr.length;i++){
             if(arr[i]==arr[i-1]){
                 System.out.println(arr[i]);
                 count++;
             }
         }
-        System.out.println("The number of duplicate elements:"+count);
+        System.out.println("The number of duplicate elements:"+count);*/
+        int counter;
+        boolean[] flag=new boolean[arr.length];
+        for(int i=0;i< arr.length;i++){
+            counter=0;
+
+            for(int j=0;j< arr.length;j++){
+                if(arr[i]==arr[j]){
+                    counter++;
+                    flag[i]=true;
+                }
+            }
+            if(counter>1&&!flag[i]){
+                System.out.println(arr[i]);
+            }
+        }
+
     }
 }
