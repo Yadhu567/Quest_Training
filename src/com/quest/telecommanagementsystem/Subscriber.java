@@ -2,14 +2,14 @@ package com.quest.telecommanagementsystem;
 
 import java.io.Serializable;
 
-public class Subscribers implements Serializable {
+public class Subscriber implements Serializable {
     private String subscriberId;
     private String name;
     private String phoneNumber;
     private String planType;
     private double balance;
 
-    public Subscribers(String subscriberId, String name, String phoneNumber, String planType, double balance){
+    public Subscriber(String subscriberId, String name, String phoneNumber, String planType, double balance){
         setSubscriberId(subscriberId);
         setName(name);
         setPhoneNumber(phoneNumber);

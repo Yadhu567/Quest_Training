@@ -3,15 +3,15 @@ package com.quest.telecommanagementsystem;
 import java.util.ArrayList;
 
 public class SubscriberManagement implements SubscriberOperations {
-    ArrayList<Subscribers> subscribersList = new ArrayList<>(); // to store subscribers list
+    ArrayList<Subscriber> subscribersList = new ArrayList<>(); // to store subscribers list
 
     @Override
-    public void addSubscriber(Subscribers subscriber) {
+    public void addSubscriber(Subscriber subscriber) {
         if (subscriber == null) {
             System.out.println("Invalid subscriber. Subscriber or Subscriber ID cannot be null.");
             return; // if id is null then returns
         }
-        for (Subscribers sub : subscribersList) {
+        for (Subscriber sub : subscribersList) {
             if (sub.getSubscriberId().equalsIgnoreCase(subscriber.getSubscriberId())) {
                 System.out.println("subscriber with this id already exists");
                 return;
@@ -27,7 +27,7 @@ public class SubscriberManagement implements SubscriberOperations {
             System.out.println("Invalid Subscriber ID.");
             return; //if id is  null then returns
         }
-        for (Subscribers sub : subscribersList) {
+        for (Subscriber sub : subscribersList) {
             if (sub.getSubscriberId().equalsIgnoreCase(subscriberId)) {
                 System.out.println(sub);
             }
@@ -42,7 +42,7 @@ public class SubscriberManagement implements SubscriberOperations {
             System.out.println("No subscribers in the system.");
             return;
         }
-        for (Subscribers sub : subscribersList) {
+        for (Subscriber sub : subscribersList) {
             System.out.println("The subscribers list are");
             System.out.println(sub);
         }
@@ -54,7 +54,7 @@ public class SubscriberManagement implements SubscriberOperations {
             System.out.println("Invalid Subscriber ID");
             return;
         }
-        for (Subscribers sub : subscribersList) {
+        for (Subscriber sub : subscribersList) {
             if (sub.getSubscriberId().equalsIgnoreCase(subscriberId)) {
                 if (sub.getPlanType().equalsIgnoreCase("prepaid")) {
                     sub.setBalance(amount);
@@ -76,9 +76,9 @@ public class SubscriberManagement implements SubscriberOperations {
         double totalAmount = 0; // to store total amount
         CallHistoryManagement callHistoryManagement = new CallHistoryManagement();
         // for getting call history of a particular user
-        ArrayList<Calls> histories = callHistoryManagement.getCallHistoryBySubscriber(subscriberId);
+        ArrayList<Call> histories = callHistoryManagement.getCallHistoryBySubscriber(subscriberId);
 
-        for (Calls record : histories) {
+        for (Call record : histories) {
             if (record.getCallType().equalsIgnoreCase("Postpaid")) {
                 switch (record.getCallType()) {
                     case "Local":

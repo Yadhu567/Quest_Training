@@ -31,7 +31,7 @@ public class MainClass {
                 double balance = doubleValidation(sc);
                 sc.nextLine();//clear input
 
-                Subscribers subscriber = new Subscribers(subscriberId, name, phoneNumber, planType, balance);
+                Subscriber subscriber = new Subscriber(subscriberId, name, phoneNumber, planType, balance);
                 subscriberManagement.addSubscriber(subscriber);
                 fileManagement.saveSubscriber(subscriber); //saving subscriber to file
 
@@ -52,7 +52,7 @@ public class MainClass {
             int duration = integerValidation(sc);
             sc.nextLine();//clear input
 
-            Calls callHistory = new Calls(subIdForCall, callType, duration, java.time.LocalDateTime.now());
+            Call callHistory = new Call(subIdForCall, callType, duration, java.time.LocalDateTime.now());
             callHistoryManagement.addCallHistory(callHistory);
 
             fileManagement.saveCallHistory(callHistory); //saving call history to file

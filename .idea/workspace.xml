@@ -6,13 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="c304d3fa-b057-4623-8372-e5494193874d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/callhistory.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/CallHistoryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/CallHistoryManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/CallHistoryOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/CallHistoryOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/Calls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/Call.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/FileManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/FileManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/MainClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/SubscriberManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/SubscriberManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/Subscribers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/Subscribers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/callhistory.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/subscriber.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/SubscriberOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/SubscriberOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/Subscribers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/Subscriber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>

@@ -4,7 +4,7 @@ import java.io.IOException;
 public class FileManagement {
 
     // Saving subscribers
-    public void saveSubscriber(Subscribers subscriber) {
+    public void saveSubscriber(Subscriber subscriber) {
             try (FileWriter writer = new FileWriter("subscribers.txt", true)) {
                 writer.write(subscriber.getSubscriberId() + "," +
                         subscriber.getName() + "," +
@@ -19,7 +19,7 @@ public class FileManagement {
         }
 
     // Saving call history
-    public void saveCallHistory(Calls callHistory) {
+    public void saveCallHistory(Call callHistory) {
         try (FileWriter writer = new FileWriter("call history.txt", true)) {
             writer.write(callHistory.getsubscriberId() + "," +
                     callHistory.getCallType() + "," +
