@@ -6,15 +6,36 @@
   <component name="ChangeListManager">
     <list default="true" id="c304d3fa-b057-4623-8372-e5494193874d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/callhistory.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/CallHistoryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/CallHistoryManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/CallHistoryOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/CallHistoryOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/Calls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/Call.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/FileManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/FileManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/cloneobject/LibraryOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/cloneobject/LibraryOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/HashMapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/map/HashMapExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/HashSetClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/set/HashSetClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/LinkedHashMapClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/map/LinkedHashMapClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/LinkedHashSetClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/set/LinkedHashSetClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/LinkedListClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/list/LinkedListClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/LinkedListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/list/LinkedListExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/ListClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/list/ListClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/ListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/list/ListExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/MapExampleClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/map/MapExampleClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/QueueClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/queue/QueueClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/SetExampleClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/set/SetExampleClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/StackClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/list/StackClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/TreeMapClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/map/TreeMapClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/TreeSetClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/set/TreeSetClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/VectorClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/list/VectorClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/enumexample/DayEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/enumexample/DayEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/enumexample/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/enumexample/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/filehandling/FileExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/filehandling/FileExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/filehandling/FileOperaions2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/filehandling/FileOperaions2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/filehandling/FileOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/filehandling/FileOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/filehandling/OutPutClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/filehandling/OutPutClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/oops/WeatherMonitoringSystem/WeatherManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/oops/WeatherMonitoringSystem/WeatherManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/string/StringBuilderMethods2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/string/StringBuilderMethods2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/string/StringMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/string/StringMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/Call.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/Call.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/Subscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/Subscriber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/SubscriberManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/SubscriberManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/SubscriberOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/SubscriberOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/Subscribers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/Subscriber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +55,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/com/quest/errorexamples/StackOverFlowError.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/com/quest/practice_vars/StringDuplicate.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -51,6 +73,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.BufferedClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CollectionImpl.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CollectionPractice.executor&quot;: &quot;Run&quot;,
     &quot;Application.DateTimeClass.executor&quot;: &quot;Run&quot;,
     &quot;Application.DuplicatElements.executor&quot;: &quot;Run&quot;,
     &quot;Application.FIleExample.executor&quot;: &quot;Run&quot;,
@@ -68,6 +92,7 @@
     &quot;Application.Mainclass.executor&quot;: &quot;Run&quot;,
     &quot;Application.MapExampleClass.executor&quot;: &quot;Run&quot;,
     &quot;Application.OutOfMemmoryError.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PriorityQueueClass.executor&quot;: &quot;Run&quot;,
     &quot;Application.QueueClass.executor&quot;: &quot;Run&quot;,
     &quot;Application.RandomClass.executor&quot;: &quot;Debug&quot;,
     &quot;Application.SetClass.executor&quot;: &quot;Run&quot;,
@@ -79,6 +104,7 @@
     &quot;Application.StringDuplicate.executor&quot;: &quot;Run&quot;,
     &quot;Application.TestClass.executor&quot;: &quot;Run&quot;,
     &quot;Application.TreeMapClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TreeQueueExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.TreeSetClass.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -89,6 +115,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.quest.collections" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="Quest_Training" />
@@ -112,5 +143,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

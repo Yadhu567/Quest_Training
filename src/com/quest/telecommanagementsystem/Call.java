@@ -5,11 +5,11 @@ import java.time.LocalDateTime;
 
 public class Call implements Serializable {
     private String subscriberId;
-    private String callType;
+    private CallType callType;
     private int duration;
     private LocalDateTime timeStamp;
 
-    public Call(String subscriberId, String callType, int duration, LocalDateTime timeStamp) {
+    public Call(String subscriberId, CallType callType, int duration, LocalDateTime timeStamp) {
         setsubscriberId(subscriberId);
         setCallType(callType);
         setDuration(duration);
@@ -25,11 +25,11 @@ public class Call implements Serializable {
         this.subscriberId = subscriberId;
     }
 
-    public String getCallType() {
+    public CallType getCallType() {
         return callType;
     }
 
-    public void setCallType(String callType) {
+    public void setCallType(CallType callType) {
         this.callType = callType;
     }
 

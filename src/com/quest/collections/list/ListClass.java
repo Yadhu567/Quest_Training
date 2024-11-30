@@ -1,4 +1,6 @@
-package com.quest.collections;
+package com.quest.collections.list;
+
+import com.quest.collections.Person;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -25,6 +27,7 @@ public class ListClass {
         lst3.add(1);
         lst3.add(2);
         lst3.add(3);
+        lst3.add(null);
         System.out.println(lst3.get(1));
 //        lst.remove(2);
 //        lst3.clear();

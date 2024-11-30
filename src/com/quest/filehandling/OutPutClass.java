@@ -12,7 +12,7 @@ public class OutPutClass {
             BufferedInputStream bis=new BufferedInputStream(new FileInputStream("destination.txt"));
             byte[] arr=new byte[1024];
             int c ;
-            while ((c=bis.read(arr))!=-1){
+            while ((c=bis.read(arr ))!=-1){
                 System.out.println((char) c);
             }
         }catch (FileNotFoundException e){

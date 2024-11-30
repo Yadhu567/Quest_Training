@@ -1,4 +1,6 @@
-package com.quest.collections;
+package com.quest.collections.list;
+
+import com.quest.collections.Person;
 
 import java.util.Iterator;
 import java.util.LinkedList;

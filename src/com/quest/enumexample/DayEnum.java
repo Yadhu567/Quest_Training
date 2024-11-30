@@ -4,5 +4,5 @@ public enum DayEnum {
     monday,
     tuesday,
     wednesday,
-    sunday
+    sunday;
 }

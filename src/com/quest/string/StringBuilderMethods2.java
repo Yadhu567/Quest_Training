@@ -5,6 +5,7 @@ public class StringBuilderMethods2 {
         StringBuilder s1 = new StringBuilder("hello world");
         StringBuilder s8 = new StringBuilder("new hello world");
         StringBuffer s9= new StringBuffer("new hello world");
+        String str=new String("Hao");
         System.out.println(s1);
         StringBuilder s2 = s8.reverse();
         System.out.println(s2);

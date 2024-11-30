@@ -6,10 +6,10 @@ public class Subscriber implements Serializable {
     private String subscriberId;
     private String name;
     private String phoneNumber;
-    private String planType;
+    private PlanType planType;
     private double balance;
 
-    public Subscriber(String subscriberId, String name, String phoneNumber, String planType, double balance){
+    public Subscriber(String subscriberId, String name, String phoneNumber, PlanType planType, double balance){
         setSubscriberId(subscriberId);
         setName(name);
         setPhoneNumber(phoneNumber);
@@ -29,7 +29,7 @@ public class Subscriber implements Serializable {
         return phoneNumber;
     }
 
-    public String getPlanType() {
+    public PlanType getPlanType() {
         return planType;
     }
 
@@ -49,7 +49,7 @@ public class Subscriber implements Serializable {
         this.phoneNumber = phoneNumber;
     }
 
-    public void setPlanType(String planType) {
+    public void setPlanType(PlanType planType) {
         this.planType = planType;
     }
 

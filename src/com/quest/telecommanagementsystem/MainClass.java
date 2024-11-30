@@ -25,7 +25,8 @@ public class MainClass {
                 String phoneNumber = sc.nextLine();
 
                 System.out.println("Plan Type Prepaid or Postpaid");
-                String planType = sc.nextLine();
+                String planTypeInput = sc.nextLine();
+                PlanType planType=PlanType.valueOf(planTypeInput);
 
                 System.out.println("Enter initial balance");
                 double balance = doubleValidation(sc);
@@ -45,8 +46,9 @@ public class MainClass {
             System.out.println("Enter Subscriber ID for Call History");
             String subIdForCall = sc.nextLine();
 
-            System.out.println("Call Type Local or STD or ISD");
-            String callType = sc.nextLine();
+            System.out.println("Call Type LOCAL or STD or ISD in capital letters");
+            String callTypeInput = sc.nextLine();
+            CallType callType = CallType.valueOf(callTypeInput);
 
             System.out.println("Call Duration");
             int duration = integerValidation(sc);
@@ -101,3 +103,4 @@ public class MainClass {
         return sc.nextDouble();
     }
 }
+

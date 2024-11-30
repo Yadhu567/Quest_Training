@@ -1,4 +1,6 @@
-package com.quest.collections;
+package com.quest.collections.list;
+
+import com.quest.collections.Person;
 
 import java.util.ArrayList;
 import java.util.Iterator;

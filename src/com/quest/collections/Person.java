@@ -1,6 +1,6 @@
 package com.quest.collections;
 
-public class Person {
+public class Person implements Comparable<Person>  {
     private String name;
     private int age;
     private String gender;
@@ -41,5 +41,10 @@ public class Person {
     }
     public void setPhoneNUmber(String phoneNUmber) {
         this.phoneNUmber = phoneNUmber;
+    }
+
+    @Override
+    public int compareTo(Person o) {
+        return this.name.compareTo(o.name);
     }
 }

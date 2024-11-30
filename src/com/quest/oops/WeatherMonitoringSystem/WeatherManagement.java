@@ -1,7 +1,7 @@
 package com.quest.oops.WeatherMonitoringSystem;
 
 public class WeatherManagement implements WeatherDetails {
-    private CityWeatherData[] cities;  // to store weather data for multiple cities
+    private final CityWeatherData[] cities;  // to store weather data for multiple cities
     private int cityCount; // Tracks the number of cities added
 
     public WeatherManagement(int size) {

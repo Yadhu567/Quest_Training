@@ -1,8 +1,7 @@
-package com.quest.collections;
+package com.quest.collections.queue;
 
 import java.util.Iterator;
 import java.util.PriorityQueue;
-import java.util.Queue;
 
 public class QueueClass {
     public static void main(String[] args) {

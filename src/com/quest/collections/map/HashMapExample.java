@@ -1,7 +1,6 @@
-package com.quest.collections;
+package com.quest.collections.map;
 
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
 
 public class HashMapExample {

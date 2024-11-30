@@ -8,4 +8,18 @@ public interface LibraryOperations {
     boolean returnBook(String bookId) throws CloneNotSupportedException;
     List<Books> availableBooks();
     List<BorrowedRecord> borrowedBooksHistory();
+
+    default void helloBooks() {
+        System.out.println("hello");
+    }
+    default void helloBooks1() {
+        System.out.println("hello");
+    }
+
+    static void helloAuthor(){
+        System.out.println("hoi");
+    }
+    static void helloAuthor1(){
+        System.out.println("hoi");
+    }
 }

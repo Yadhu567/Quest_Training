@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class SubscriberManagement implements SubscriberOperations {
     ArrayList<Subscriber> subscribersList = new ArrayList<>(); // to store subscribers list
-
+    Subscriber[] sus=new Subscriber[4];
     @Override
     public void addSubscriber(Subscriber subscriber) {
         if (subscriber == null) {
@@ -56,7 +56,7 @@ public class SubscriberManagement implements SubscriberOperations {
         }
         for (Subscriber sub : subscribersList) {
             if (sub.getSubscriberId().equalsIgnoreCase(subscriberId)) {
-                if (sub.getPlanType().equalsIgnoreCase("prepaid")) {
+                if (sub.getPlanType().isPostpaid()) {
                     sub.setBalance(amount);
                     System.out.println("Balance updated successfully for subscriber ID: " + subscriberId);
                 } else {
@@ -79,22 +79,7 @@ public class SubscriberManagement implements SubscriberOperations {
         ArrayList<Call> histories = callHistoryManagement.getCallHistoryBySubscriber(subscriberId);
 
         for (Call record : histories) {
-            if (record.getCallType().equalsIgnoreCase("Postpaid")) {
-                switch (record.getCallType()) {
-                    case "Local":
-                        totalAmount += record.getDuration() * 1;
-                        break;
-                    case "STD":
-                        totalAmount += record.getDuration() * 2;
-                        break;
-                    case "ISD":
-                        totalAmount += record.getDuration() * 5;
-                        break;
-                }
-            }
-            else{
-                System.out.println("Generating bills for other plan type not possible");
-            }
+            totalAmount += record.getDuration() * record.getCallType().generateRate();
         }
         System.out.println("Total bill for Subscriber ID " + subscriberId + " is " + totalAmount);
     }
