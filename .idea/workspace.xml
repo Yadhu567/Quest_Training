@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c304d3fa-b057-4623-8372-e5494193874d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/exams/subquestions/FrequencyOccurrence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/exams/subquestions/FrequencyOccurrence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/exams/subquestions/ListPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/exams/subquestions/ListPartition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +62,7 @@
     "Application.FileOperaions2.executor": "Run",
     "Application.FileOperations.executor": "Run",
     "Application.FrequencyOccurence.executor": "Run",
+    "Application.FrequencyOccurrence.executor": "Run",
     "Application.HashMapExample.executor": "Run",
     "Application.HashSetClass.executor": "Run",
     "Application.LinkedHashMapClass.executor": "Run",
