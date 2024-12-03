@@ -6,36 +6,88 @@
   <component name="ChangeListManager">
     <list default="true" id="c304d3fa-b057-4623-8372-e5494193874d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/cloneobject/LibraryOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/cloneobject/LibraryOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/HashMapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/map/HashMapExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/HashSetClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/set/HashSetClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/LinkedHashMapClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/map/LinkedHashMapClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/LinkedHashSetClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/set/LinkedHashSetClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/LinkedListClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/list/LinkedListClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/LinkedListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/list/LinkedListExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/ListClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/list/ListClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/ListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/list/ListExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/MapExampleClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/map/MapExampleClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/QueueClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/queue/QueueClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/SetExampleClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/set/SetExampleClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/StackClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/list/StackClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/TreeMapClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/map/TreeMapClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/TreeSetClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/set/TreeSetClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/VectorClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/list/VectorClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/enumexample/DayEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/enumexample/DayEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/booksinventory/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/booksinventory/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/booksinventory/DisplayPriceAboveBooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/booksinventory/DisplayPriceAboveBooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/booksinventory/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/booksinventory/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/booksinventory/SpecialEditionBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/booksinventory/SpecialEditionBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/cloneobject/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/cloneobject/Books.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/cloneobject/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/cloneobject/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/CollectionImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/CollectionImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/list/ListClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/list/ListClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/list/ListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/list/ListExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/list/StackClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/list/StackClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/map/HashMapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/map/HashMapExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/map/LinkedHashMapClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/map/LinkedHashMapClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/map/TreeMapClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/map/TreeMapClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/queue/PriorityQueueClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/queue/PriorityQueueClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/queue/QueueClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/queue/QueueClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/set/HashSetClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/set/HashSetClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/set/LinkedHashSetClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/set/LinkedHashSetClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/set/TreeSetClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/set/TreeSetClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/streams/StreamClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/streams/StreamClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/customexception/CustomException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/customexception/CustomException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/quest/enumexample/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/enumexample/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/filehandling/FileExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/filehandling/FileExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/filehandling/FileOperaions2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/filehandling/FileOperaions2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/filehandling/FileOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/filehandling/FileOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/filehandling/OutPutClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/filehandling/OutPutClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/exception/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/exception/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/exception/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/exception/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/exception/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/exception/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/exceptionexample/InvalidInputException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/exceptionexample/InvalidInputException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/exceptionexample/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/exceptionexample/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/exceptionexample/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/exceptionexample/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/filehandling/BufferedClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/filehandling/BufferedClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/filehandling/StreamClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/filehandling/StreamClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/filehandling/StreamClassExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/filehandling/StreamClassExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/oopassignment/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/oops/oopassignment/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/oopassignment/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/oops/oopassignment/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/oopassignment/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/oops/oopassignment/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/oopassignment/TeamSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/oops/oopassignment/TeamSize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/oops/WeatherMonitoringSystem/CityWeatherData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/oops/WeatherMonitoringSystem/CityWeatherData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/quest/oops/WeatherMonitoringSystem/WeatherManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/oops/WeatherMonitoringSystem/WeatherManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/string/StringBuilderMethods2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/string/StringBuilderMethods2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/oops/bankassignment/SavingsAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/oops/bankassignment/SavingsAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/oops/enums/ShapeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/oops/enums/ShapeType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/oops/libraryassigment2/Mainclass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/oops/libraryassigment2/Mainclass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/oops/libraryassigment2/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/oops/libraryassigment2/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/ArrayExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/ArrayExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/ArrayMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/ArrayMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/ArrayReplacement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/ArrayReplacement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/CommodityStockAnalyser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/CommodityStockAnalyser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/ControlFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/ControlFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/DataTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/DataTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/DigitAddition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/DigitAddition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/DoWhileLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/DoWhileLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/DuplicatElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/DuplicatElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/EmployeeManagementSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/EmployeeManagementSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/EquityStockAnalyser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/EquityStockAnalyser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/InventoryManagementSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/InventoryManagementSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/JavaMethodExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/JavaMethodExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/MatrixExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/MatrixExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/MatrixReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/MatrixReverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/NumberPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/NumberPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/PairElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/PairElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/PatternPrinting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/PatternPrinting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/PracticeOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/PracticeOperators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/PracticeVars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/PracticeVars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/PrimeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/SecondLargest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/SecondLargest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/SimpleCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/SimpleCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/StockAnalyser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/StockAnalyser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/StockMainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/StockMainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/StringDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/StringDuplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/StringMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/StringMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/StringPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/StringPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/StudentManagementSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/StudentManagementSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/StudentScores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/StudentScores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/TestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/TypeCastingExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/TypeCastingExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/VerticalCharacterCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/VerticalCharacterCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/WrapperClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/WrapperClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/string/StringBuilderMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/string/StringBuilderMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/quest/string/StringMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/string/StringMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/Call.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/Call.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/Subscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/Subscriber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/CallHistoryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/CallHistoryManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/FileManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/FileManagement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/SubscriberManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/SubscriberManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/SubscriberOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/SubscriberOperations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +97,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -55,6 +107,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/com/quest/booksinventory/MainClass.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/com/quest/errorexamples/StackOverFlowError.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/com/quest/practice_vars/StringDuplicate.java" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -70,51 +123,71 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BufferedClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CollectionImpl.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CollectionPractice.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DateTimeClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DuplicatElements.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FIleExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileOperaions2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileOperations.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HashMapExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HashSetClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedHashMapClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedHashSetClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedListClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Mainclass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MapExampleClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OutOfMemmoryError.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PriorityQueueClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.QueueClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RandomClass.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.SetClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SetExampleClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StackClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StackOverFlowError.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StreamClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StreamClassExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringDuplicate.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TreeMapClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TreeQueueExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TreeSetClass.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArrayReplacement.executor": "Run",
+    "Application.BufferedClass.executor": "Run",
+    "Application.CharacterFrequency11.executor": "Run",
+    "Application.CollectionImpl.executor": "Run",
+    "Application.CollectionPractice.executor": "Run",
+    "Application.DateTimeClass.executor": "Run",
+    "Application.DivisibleByThree8.executor": "Run",
+    "Application.DuplicatElements.executor": "Run",
+    "Application.DuplicateSet5.executor": "Run",
+    "Application.EmployeeMap15.executor": "Run",
+    "Application.EmployeeSorting.executor": "Run",
+    "Application.EvenList2.executor": "Run",
+    "Application.FIleExample.executor": "Run",
+    "Application.FileExample.executor": "Run",
+    "Application.FileOperaions2.executor": "Run",
+    "Application.FileOperations.executor": "Run",
+    "Application.HashMapExample.executor": "Run",
+    "Application.HashSetClass.executor": "Run",
+    "Application.LinkedHashMapClass.executor": "Run",
+    "Application.LinkedHashSetClass.executor": "Run",
+    "Application.LinkedListClass.executor": "Run",
+    "Application.ListClass.executor": "Run",
+    "Application.ListExample.executor": "Run",
+    "Application.ListReverse.executor": "Run",
+    "Application.ListReverse1.executor": "Run",
+    "Application.MainClass.executor": "Run",
+    "Application.Mainclass.executor": "Run",
+    "Application.MapExampleClass.executor": "Run",
+    "Application.MapSorting12.executor": "Run",
+    "Application.MapValueSortting.executor": "Run",
+    "Application.MergeList3.executor": "Run",
+    "Application.OccurenceCount5.executor": "Run",
+    "Application.OutOfMemmoryError.executor": "Run",
+    "Application.PriorityQueueClass.executor": "Run",
+    "Application.ProductMap13.executor": "Run",
+    "Application.QueueClass.executor": "Run",
+    "Application.RandomClass.executor": "Debug",
+    "Application.SecondLargest4.executor": "Run",
+    "Application.SetClass.executor": "Run",
+    "Application.SetDuplicate9.executor": "Run",
+    "Application.SetExampleClass.executor": "Run",
+    "Application.SetExistence7.executor": "Run",
+    "Application.SetOperations6.executor": "Run",
+    "Application.StackClass.executor": "Run",
+    "Application.StackOverFlowError.executor": "Run",
+    "Application.StreamClass.executor": "Run",
+    "Application.StreamClassExample.executor": "Run",
+    "Application.StringDuplicate.executor": "Run",
+    "Application.TestClass.executor": "Run",
+    "Application.TreeMapClass.executor": "Run",
+    "Application.TreeQueueExample.executor": "Run",
+    "Application.TreeSetClass.executor": "Run",
+    "Application.WordFrequency.executor": "Run",
+    "Application.WordFrequency14.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.quest.collections" />
@@ -145,11 +218,39 @@
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="date">
+                    <value>
+                      <list>
+                        <option value="1732373700672" />
+                        <option value="" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

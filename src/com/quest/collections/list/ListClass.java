@@ -3,6 +3,8 @@ package com.quest.collections.list;
 import com.quest.collections.Person;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
 import java.util.Iterator;
 
 public class ListClass {
@@ -16,6 +18,7 @@ public class ListClass {
                 System.out.println(p.getName());
             }
         }
+        Collection<Integer> newObj  =new ArrayList<>();
         lst2.addAll(lst1);
         ArrayList<Integer> lst=new ArrayList<>();
         lst.add(1);
@@ -27,8 +30,10 @@ public class ListClass {
         lst3.add(1);
         lst3.add(2);
         lst3.add(3);
+        lst3.add(5,3);
         lst3.add(null);
         System.out.println(lst3.get(1));
+        System.out.println(lst3.contains(2));
 //        lst.remove(2);
 //        lst3.clear();
        /* for(int i:lst3){
@@ -42,6 +47,9 @@ public class ListClass {
                 System.out.println(p1.getAge());
             }
         }
+
+        int[] arr={2,4,5,6};
+        System.out.println(Arrays.toString(arr));  // to print in array form an array
     }
 
 }

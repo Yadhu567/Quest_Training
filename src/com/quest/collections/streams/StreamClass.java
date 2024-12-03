@@ -12,6 +12,7 @@ public class StreamClass {
         arrayList.add(5);
         arrayList.add(4);
 
+
         System.out.println(arrayList.stream().findFirst().get());
         System.out.println(arrayList.stream().findAny().get());
         System.out.println(arrayList.stream().count());

@@ -12,7 +12,7 @@ public class QueueClass {
 //        priorityQueue.add(null);
         priorityQueue.add(3);
         priorityQueue.add(4);
-        priorityQueue.offer(4);
+        priorityQueue.offer(4 );
 //        priorityQueue.add(null);
 
         Iterator<Integer> itObj=priorityQueue.iterator();

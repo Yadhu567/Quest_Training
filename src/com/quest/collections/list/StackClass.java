@@ -10,7 +10,7 @@ public class StackClass {
         stack.push(3);
         System.out.println(stack.pop());
         System.out.println(stack.peek());
-        System.out.println(stack.search(2));
+        System.out.println(stack.search(2 ));
         /*System.out.println(stack.add(6));
         System.out.println(stack.size());*/
         while (!stack.isEmpty()){

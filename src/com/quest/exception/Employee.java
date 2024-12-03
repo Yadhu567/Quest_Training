@@ -1,6 +1,10 @@
 package com.quest.exception;
 
 public class Employee {
+    private static Employee e=new Employee("dd",33,55);
+    public static Employee employeeAcess(){
+        return e;
+    }
     private String name;
     private int age;
     private double salary;
@@ -9,6 +13,7 @@ public class Employee {
         setAge(age);
         setSalary(salary);
     }
+
     public String getName() {
         return name;
     }

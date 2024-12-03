@@ -12,7 +12,7 @@ public class WeatherManagement implements WeatherDetails {
     public void addCityWeatherData(CityWeatherData city) {
         if (cityCount<cities.length) {
             cities[cityCount++]=city;
-            System.out.println("Weather data of city added sucessfully!");
+            System.out.println("Weather data of city added successfully!");
         } else {
             System.out.println("Maximum number of cities reached");
         }
@@ -91,7 +91,7 @@ public class WeatherManagement implements WeatherDetails {
         boolean foundRainy=false;  // Flag to check if any cities with rainy weather found
         boolean foundCloudy=false;  // Flag to check if any cities with cloudy weather found
         for (CityWeatherData city:cities) {
-            if (city.getWeatherCondition().equals("Sunny")) {
+            if (city.getWeatherCondition().equals ("Sunny")) {
                 System.out.println(city);
                 foundSunny=true;
             } else if (city.getWeatherCondition().equals("Rainy")) {
@@ -116,17 +116,15 @@ public class WeatherManagement implements WeatherDetails {
 
     @Override
     public void averageTemp() {
-        if (cities.length==0) {
+        if (cityCount==0) {
             System.out.println("No cities to display weather data.");
             return;
         }
         double totalTemp=0; // to store total temperature
-        int count=0;  // to store city count
         for (CityWeatherData city:cities) {
                 totalTemp+=city.getCurrentTemperature();
-                count++;
         }
-        System.out.println("Average Temperature:"+(totalTemp/count)+"°C");
+        System.out.println("Average Temperature:"+(totalTemp/cityCount)+"°C");
     }
 
 

@@ -39,6 +39,17 @@ public class Student implements Comparable<Student> {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        Student s=(Student) obj;
+        return this.getStudentId()==s.getStudentId();
+    }
+//we can use containsAll method
+    @Override
+    public int hashCode() {
+        return studentId;
+    }
+
+    @Override
     public String toString() {
         return "Student{" +
                 "studentId=" + getStudentId() +

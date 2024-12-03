@@ -27,12 +27,16 @@ public class SubscriberManagement implements SubscriberOperations {
             System.out.println("Invalid Subscriber ID.");
             return; //if id is  null then returns
         }
+        boolean found=false;
         for (Subscriber sub : subscribersList) {
             if (sub.getSubscriberId().equalsIgnoreCase(subscriberId)) {
                 System.out.println(sub);
+                found=true;
             }
         }
-        System.out.println("No subscriber found with ID: " + subscriberId);
+        if(!found) {
+            System.out.println("No subscriber found with ID: " + subscriberId);
+        }
 
     }
 
@@ -42,8 +46,8 @@ public class SubscriberManagement implements SubscriberOperations {
             System.out.println("No subscribers in the system.");
             return;
         }
+        System.out.println("The subscribers list are");
         for (Subscriber sub : subscribersList) {
-            System.out.println("The subscribers list are");
             System.out.println(sub);
         }
     }

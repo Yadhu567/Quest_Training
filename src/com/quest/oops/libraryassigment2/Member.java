@@ -53,7 +53,7 @@ public class Member implements LibraryOperations {
     // overriding the abstract borrow book method
     @Override
     public void borrowBook(Book book) {
-        if (borrowed < borrowLimit) {
+        if (getBorrowed() < getBorrowLimit()) {
             if (!book.getIsBorrowed()) {
                 book.borrowBook();
                 borrowed++; // increments currently borrowed book count
@@ -81,7 +81,7 @@ public class Member implements LibraryOperations {
 
     //method to calculate late fine
     public double lateFine(final int days) {
-        return days * 1.2;
+        return days * 2.2;
     }
 
     // overriding the toString method

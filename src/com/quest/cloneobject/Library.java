@@ -36,18 +36,14 @@ public class Library implements LibraryOperations{
 
     @Override
     public boolean returnBook(String bookId) throws CloneNotSupportedException {
-        for(Books book:availableBooks){
-            if(book.getBookId().equalsIgnoreCase(bookId)){
-                if(!book.isAvailable()){
-                    book.setAvailable(true);
-                    availableBooks.add(book);
-                    for (BorrowedRecord borrowBook : borrowedBooks) {
-                        if (borrowBook.getBook().getBookId().equalsIgnoreCase(bookId)) {
-                            borrowBook.getBook().setAvailable(false);
-                            borrowBook.setReturnedAt(LocalDateTime.now());
-                            return true;
-                        }
-                    }
+        for(BorrowedRecord record:borrowedBooks){
+            if(record.getBook().getBookId().equalsIgnoreCase(bookId)){
+                if(!record.getBook().isAvailable()){
+                    record.getBook().setAvailable(true);
+                    availableBooks.add(record.getBook());
+                    record.setReturnedAt(LocalDateTime.now());
+                    return true;
+
                 }
             }
         }

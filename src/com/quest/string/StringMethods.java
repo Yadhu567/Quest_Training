@@ -8,7 +8,7 @@ public class StringMethods {
         String s3 = new String("hello");
         String s4 = new String("hello");
 
-
+        //string class doesn't contain append method but includes concat method
         String s5 = s1;
         equalString(s5,s1);
         int i1=1;

@@ -12,9 +12,11 @@ public class HashSetClass {
         hashSet.add(4);
         hashSet.add(1);
         hashSet.add(null);
+        hashSet.add(null);
         for(Integer i:hashSet){
             System.out.println(i);
         }
+
         System.out.println(hashSet.remove(2));
         System.out.println(hashSet.size());
         System.out.println(hashSet.isEmpty());

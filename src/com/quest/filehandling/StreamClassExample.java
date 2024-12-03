@@ -4,7 +4,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Scanner;
 import java.io.File;
-public class StreamClassExample {
+public class  StreamClassExample {
     public static void main(String[] args){
         try{
             File fileObj=new File("source.txt");
@@ -17,9 +17,10 @@ public class StreamClassExample {
                 s1=sc.nextLine();
                 s1=s1+"\n";
                 outputObj.write(s1.getBytes());
+
             }
             outputObj.close();
-            int line;
+             int line;
             while((line=inputObj.read())!=-1){
                 System.out.print((char)line);
             }

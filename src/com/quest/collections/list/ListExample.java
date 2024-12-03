@@ -21,6 +21,7 @@ public class ListExample {
             System.out.println("Phone Number");
             String phoneNumber=sc.nextLine();
             personList.add(new Person(name,age,gender,phoneNumber));
+
         }
         System.out.println("person details are");
         for(Person p:personList){
@@ -31,7 +32,7 @@ public class ListExample {
         System.out.println();
         System.out.println("person with age above 20");
         ageAbove(personList);
-
+        personList.forEach(System.out::println);
     }
     public static void ageBelow(ArrayList<Person> personList){
         Iterator<Person> itObj= personList.iterator();

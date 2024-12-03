@@ -10,18 +10,18 @@ public class Call implements Serializable {
     private LocalDateTime timeStamp;
 
     public Call(String subscriberId, CallType callType, int duration, LocalDateTime timeStamp) {
-        setsubscriberId(subscriberId);
+        setSubscriberId(subscriberId);
         setCallType(callType);
         setDuration(duration);
         setTimeStamp(timeStamp);
     }
 
     //getters and setters
-    public String getsubscriberId() {
+    public String getSubscriberId() {
         return subscriberId;
     }
 
-    public void setsubscriberId(String subscriberId) {
+    public void setSubscriberId(String subscriberId) {
         this.subscriberId = subscriberId;
     }
 
@@ -53,7 +53,7 @@ public class Call implements Serializable {
     @Override
     public String toString() {
         return "CallHistory{" +
-                "subscriberId=" + getsubscriberId() +
+                "subscriberId=" + getSubscriberId() +
                 ", callType='" + getCallType() + '\'' +
                 ", duration=" + getDuration() +
                 ", timeStamp=" + getTimeStamp() +

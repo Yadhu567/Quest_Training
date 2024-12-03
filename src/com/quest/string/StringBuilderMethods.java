@@ -5,6 +5,7 @@ public class StringBuilderMethods {
         StringBuilder s1 = new StringBuilder("hello");
         StringBuilder s2 = new StringBuilder("world");
         StringBuilder s6 = new StringBuilder("hello");
+        // string builder class doesn't have concat equalsIgnoreCase
         check(s1, s2);
         String s3="hello";
         String s4=s3+"world";

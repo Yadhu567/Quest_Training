@@ -3,4 +3,17 @@ package com.quest.booksinventory;
 @FunctionalInterface
 public interface DisplayPriceAboveBooks {
     void displayBooks(); // method to display books above price range
+    default void aloow() {
+
+    }
+
+    static void hee() {
+
+    }default void aloow1() {
+
+    }
+
+    static void hee2() {
+
+    }
 }

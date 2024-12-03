@@ -58,6 +58,7 @@ public class MainClass {
         // for displaying details
         System.out.println("Employee Details:");
         emp.displayDetails();
+        System.out.println(emp);
         System.out.println("Manager Details:");
         System.out.println(mng);
     }

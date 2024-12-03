@@ -13,7 +13,6 @@ public class SavingsAccount extends BankAccount {
             super.withdraw(amount);
         } else {
             System.out.println("Withdrawal denied. Minimum balance of " + MINIMUM_BALANCE + " must be maintained.");
-
         }
     }
 }

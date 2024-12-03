@@ -21,7 +21,7 @@ public class FileManagement {
     // Saving call history
     public void saveCallHistory(Call callHistory) {
         try (FileWriter writer = new FileWriter("call history.txt", true)) {
-            writer.write(callHistory.getsubscriberId() + "," +
+            writer.write(callHistory.getSubscriberId() + "," +
                     callHistory.getCallType() + "," +
                     callHistory.getDuration() + "," +
                     callHistory.getTimeStamp() + "\n");

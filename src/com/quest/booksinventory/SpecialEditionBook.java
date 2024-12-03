@@ -1,7 +1,7 @@
 package com.quest.booksinventory;
 
 public class SpecialEditionBook extends Book{
-    private String specialFeatures; //to store special features
+    private final String specialFeatures; //to store special features
     public SpecialEditionBook(String title, String author, double price, int stock,String specialFeatures) {
         super(title, author, price, stock);
         this.specialFeatures=specialFeatures;

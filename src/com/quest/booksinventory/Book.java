@@ -21,7 +21,7 @@ public class Book {
     public double getPrice(){
         return price - (price * DISCOUNT_PERCENTAGE / 100);
     }
-    public int getStock() throws OutOfStockException{
+    public int getStock() throws OutOfStockException{ //throws is a class
        if(stock<=0){ // checks book is out of stock
            throw new OutOfStockException("This book is out of stock!");
        }else{

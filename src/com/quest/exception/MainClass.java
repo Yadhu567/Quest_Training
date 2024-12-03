@@ -27,18 +27,18 @@ public class MainClass {
             System.out.println("NullPointerException occurred");
             e.printStackTrace();
         }catch (InputMismatchException e) {
-            System.out.println("InputMismatchException occurred");
+            System.out.println("--InputMismatchException occurred--");
             e.printStackTrace();
         }finally {
             System.out.println("--exiting--");
         }
     }
-    public static void validateAge(int age) {
+    public static void validateAge(int age) throws ArithmeticException {
         if (age <= 0) {
             throw new ArithmeticException("Age should be positive.");
         }
     }
-    public static void validateSalary(double salary) {
+    public static void validateSalary(double salary) throws ArithmeticException {
         if (salary < 0 || salary > 100000) {
             throw new ArithmeticException("Salary should be greater than zero and less than 1 lakh");
         }

@@ -5,7 +5,7 @@ public class Manager extends Employee {
     public Manager(String name,int age,double salary,int teamSize) throws InvalidInputException {
         super(name, age, salary);
         if(teamSize<1){ // for validating team size
-            throw new IllegalArgumentException("Team size must be greater than zero.");
+            throw new InvalidInputException("Team size must be greater than zero.");
         }else{
             this.teamSize=teamSize;
         }

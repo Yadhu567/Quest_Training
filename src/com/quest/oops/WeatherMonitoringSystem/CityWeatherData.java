@@ -10,7 +10,6 @@ public class CityWeatherData {
         setCurrentTemperature(currentTemperature);
         setCurrentHumidity(currentHumidity);
         setWeatherCondition(weatherCondition);
-
     }
     //getters and setters method
     public String getCityName() {

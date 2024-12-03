@@ -1,6 +1,10 @@
 package com.quest.cloneobject;
 
-public class Books {
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Comparator;
+//POJO class-plain old java object class
+public class Books implements Comparable<Books> {
     private String bookId;
     private String title;
     private String author;
@@ -49,6 +53,8 @@ public class Books {
         return false;
     }
 
+
+
     @Override
     protected Object clone() throws CloneNotSupportedException {
         Books clonedObject =(Books)super.clone(); //shallow copy
@@ -68,4 +74,18 @@ public class Books {
                 ", available=" + getAuthor() +
                 '}';
     }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
+
+
+    @Override
+    public int compareTo(Books o) {
+        return 0;
+    }
+
+    Comparator<Books> comparator=Comparator.comparing(Books::getBookId);
+
 }

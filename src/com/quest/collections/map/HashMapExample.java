@@ -1,10 +1,12 @@
 package com.quest.collections.map;
 
+import java.time.LocalDateTime;
 import java.util.HashMap;
 import java.util.Map;
 
 public class HashMapExample {
     public static void main(String[] args) {
+
         HashMap<Integer,String> hashMap=new HashMap<>();
         hashMap.put(5,"banana");
         hashMap.put(2,"apple");
@@ -20,7 +22,7 @@ public class HashMapExample {
         for(Map.Entry<Integer,String> e:hashMap.entrySet()){
             System.out.println(e.getKey()+e.getValue());
         }
-        System.out.println(hashMap.get(2));
+        System.out.println(hashMap.get(2)); //it returns null when key is not available
         System.out.println(hashMap.remove(3,"orange"));
         System.out.println(hashMap.size());
         System.out.println(hashMap.isEmpty());

@@ -12,7 +12,7 @@ public class Mainclass {
 
         // Adding members
         Member member1=new Member("m23","smith","regular",3);
-        PremiumMember member2 =new PremiumMember("p23","johan","premium",5);
+        Member member2 =new PremiumMember("p23","johan","premium",5);
 
         System.out.println(member1);
         System.out.println(member2);

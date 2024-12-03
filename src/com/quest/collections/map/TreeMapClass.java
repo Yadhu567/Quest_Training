@@ -19,5 +19,6 @@ public class TreeMapClass {
         System.out.println(treeMap.containsValue("john"));
         System.out.println(treeMap.containsKey(2));
         System.out.println(treeMap.remove(2));
+        treeMap.clear();
     }
 }

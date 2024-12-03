@@ -9,7 +9,7 @@ public class PriorityQueueClass {
         priorityQueue1.add(4);
         priorityQueue1.add(1);
         priorityQueue1.add(3);
-
+        priorityQueue1.remove(2);
 
         System.out.println(priorityQueue1);
         System.out.println(priorityQueue1.peek());
@@ -59,6 +59,7 @@ public class PriorityQueueClass {
         priorityQueue5.add(3L);
         priorityQueue5.add(1L);
         priorityQueue5.add(9L);
+        priorityQueue5.add(4L);
         priorityQueue5.add(4L);
 
 

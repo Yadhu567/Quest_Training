@@ -10,6 +10,7 @@ public class TreeSetClass {
         treeSet.add(3f);
         treeSet.add(3f);
         treeSet.add(null); // This will throw a NullPointerException
+
         for(Float i:treeSet){
             System.out.println(i);
         }

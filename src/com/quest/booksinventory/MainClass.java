@@ -62,6 +62,13 @@ public class MainClass implements DisplayPriceAboveBooks{
                 }
             }
         };
+        DisplayPriceAboveBooks priceAboveBooks1=new DisplayPriceAboveBooks() {
+            @Override
+            public void displayBooks() {
+                System.out.println("hello");
+            }
+        };
+        priceAboveBooks1.displayBooks();
         priceAboveBooks.displayBooks();
     }
     @Override

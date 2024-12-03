@@ -7,7 +7,7 @@ public class Manager extends Employee implements Bonus{
 
     @Override
     public double calculateBonus() {
-        return getSalary()*0.2;
+        return this.getSalary()*0.2;
     }
 
     @Override

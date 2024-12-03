@@ -10,9 +10,8 @@ public class LinkedHashMapClass {
         linkedHashMap.put(2,"mango");
         linkedHashMap.put(3,"blueberry");
         linkedHashMap.put(4,"strawberry");
-
         for(Integer i:linkedHashMap.keySet()){
-            System.out.println(i);
+            System.out.println(i);                
         }
         for(String s:linkedHashMap.values()){
             System.out.println(s);
