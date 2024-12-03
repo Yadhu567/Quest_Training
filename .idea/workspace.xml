@@ -6,88 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c304d3fa-b057-4623-8372-e5494193874d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/booksinventory/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/booksinventory/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/booksinventory/DisplayPriceAboveBooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/booksinventory/DisplayPriceAboveBooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/booksinventory/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/booksinventory/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/booksinventory/SpecialEditionBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/booksinventory/SpecialEditionBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/cloneobject/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/cloneobject/Books.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/cloneobject/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/cloneobject/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/CollectionImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/CollectionImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/list/ListClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/list/ListClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/list/ListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/list/ListExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/list/StackClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/list/StackClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/map/HashMapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/map/HashMapExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/map/LinkedHashMapClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/map/LinkedHashMapClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/map/TreeMapClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/map/TreeMapClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/queue/PriorityQueueClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/queue/PriorityQueueClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/queue/QueueClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/queue/QueueClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/set/HashSetClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/set/HashSetClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/set/LinkedHashSetClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/set/LinkedHashSetClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/set/TreeSetClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/set/TreeSetClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/streams/StreamClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/streams/StreamClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/customexception/CustomException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/customexception/CustomException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/enumexample/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/enumexample/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/exception/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/exception/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/exception/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/exception/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/exception/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/exception/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/exceptionexample/InvalidInputException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/exceptionexample/InvalidInputException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/exceptionexample/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/exceptionexample/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/exceptionexample/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/exceptionexample/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/filehandling/BufferedClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/filehandling/BufferedClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/filehandling/StreamClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/filehandling/StreamClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/filehandling/StreamClassExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/filehandling/StreamClassExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/oopassignment/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/oops/oopassignment/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/oopassignment/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/oops/oopassignment/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/oopassignment/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/oops/oopassignment/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/oopassignment/TeamSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/oops/oopassignment/TeamSize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/oops/WeatherMonitoringSystem/CityWeatherData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/oops/WeatherMonitoringSystem/CityWeatherData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/oops/WeatherMonitoringSystem/WeatherManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/oops/WeatherMonitoringSystem/WeatherManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/oops/bankassignment/SavingsAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/oops/bankassignment/SavingsAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/oops/enums/ShapeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/oops/enums/ShapeType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/oops/libraryassigment2/Mainclass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/oops/libraryassigment2/Mainclass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/oops/libraryassigment2/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/oops/libraryassigment2/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/ArrayExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/ArrayExamples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/ArrayMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/ArrayMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/ArrayReplacement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/ArrayReplacement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/CommodityStockAnalyser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/CommodityStockAnalyser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/ControlFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/ControlFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/DataTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/DataTypes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/DigitAddition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/DigitAddition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/DoWhileLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/DoWhileLoop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/DuplicatElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/DuplicatElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/EmployeeManagementSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/EmployeeManagementSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/EquityStockAnalyser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/EquityStockAnalyser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/InventoryManagementSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/InventoryManagementSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/JavaMethodExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/JavaMethodExamples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/MatrixExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/MatrixExamples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/MatrixReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/MatrixReverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/NumberPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/NumberPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/PairElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/PairElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/PatternPrinting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/PatternPrinting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/PracticeOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/PracticeOperators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/PracticeVars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/PracticeVars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/PrimeNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/SecondLargest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/SecondLargest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/SimpleCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/SimpleCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/StockAnalyser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/StockAnalyser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/StockMainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/StockMainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/StringDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/StringDuplicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/StringMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/StringMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/StringPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/StringPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/StudentManagementSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/StudentManagementSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/StudentScores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/StudentScores.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/TestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/TypeCastingExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/TypeCastingExamples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/VerticalCharacterCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/VerticalCharacterCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_vars/WrapperClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_questions/WrapperClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/string/StringBuilderMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/string/StringBuilderMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/string/StringMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/string/StringMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/Call.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/Call.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/CallHistoryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/CallHistoryManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/FileManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/FileManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/SubscriberManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/SubscriberManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/SubscriberOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/telecommanagementsystem/SubscriberOperations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,6 +59,7 @@
     "Application.FileExample.executor": "Run",
     "Application.FileOperaions2.executor": "Run",
     "Application.FileOperations.executor": "Run",
+    "Application.FrequencyOccurence.executor": "Run",
     "Application.HashMapExample.executor": "Run",
     "Application.HashSetClass.executor": "Run",
     "Application.LinkedHashMapClass.executor": "Run",
@@ -148,6 +67,7 @@
     "Application.LinkedListClass.executor": "Run",
     "Application.ListClass.executor": "Run",
     "Application.ListExample.executor": "Run",
+    "Application.ListPartition.executor": "Run",
     "Application.ListReverse.executor": "Run",
     "Application.ListReverse1.executor": "Run",
     "Application.MainClass.executor": "Run",
