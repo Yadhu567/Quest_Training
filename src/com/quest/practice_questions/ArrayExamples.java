@@ -21,5 +21,11 @@ public class ArrayExamples {
                 System.out.println(x);
             }
         }
+        int[][] arr3=new int[5][5];
+        for(int[] x:arr3){
+            for(int j:x){
+                System.out.println(j);
+            }
+        }
     }
 }

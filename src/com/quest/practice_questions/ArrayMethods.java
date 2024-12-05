@@ -32,6 +32,7 @@ public class ArrayMethods {
             if(searchArray[i] == searchVariable){
                 position=i;
                 flag=1;
+                break;
             }
         }
         if (flag==1){

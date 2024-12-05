@@ -16,7 +16,6 @@ public class User implements UserOperations {
         this.favorites = new HashSet<>();
     }
     
-
     @Override
     public void createPlayList(String name) {
         if (playLists.containsKey(name)) {
@@ -28,13 +27,14 @@ public class User implements UserOperations {
 
     @Override
     public void deletePlayList(String name) {
-        if (!playLists.containsKey(name)) {
+        if (!playLists.containsKey(name)) { //containsValue also
             System.out.println("No such playlist found");
         } else {
             playLists.remove(name);
             System.out.println("Playlist "+name +" deleted successfully");
         }
     }
+
 
     @Override
     public PlayList getPlaylistByName(String name) {
