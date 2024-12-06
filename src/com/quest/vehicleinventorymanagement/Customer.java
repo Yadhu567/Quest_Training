@@ -20,7 +20,7 @@ public class Customer {
         if (vehicle == null) {
             System.out.println("Vehicle can't be empty");
         } else {
-            PurchasedVehicle purchasedVehicle = new PurchasedVehicle(vehicle);
+            PurchasedVehicle purchasedVehicle = new PurchasedVehicle(vehicle); // creates object of purchased vehicle class
             purchasedVehicles.add(purchasedVehicle);
             System.out.println("Vehicle added successfully in purchased list at " + purchasedVehicle.getPurchaseDateTime());
         }
@@ -38,6 +38,7 @@ public class Customer {
         return email;
     }
 
+    // get the list of purchased vehicles
     public List<PurchasedVehicle> getPurchasedVehicles() {
         return purchasedVehicles;
     }

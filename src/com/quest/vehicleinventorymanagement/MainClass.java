@@ -62,7 +62,7 @@ public class MainClass {
             inventoryManagement.addVehicle(bike);
         }
         while (true) {
-            System.out.println("Select an Operation:");
+            System.out.println("Select an option");
             System.out.println("1.Display All Vehicles in Inventory");
             System.out.println("2.Search Vehicles by Brand");
             System.out.println("3.Purchase a Vehicle");
@@ -71,7 +71,7 @@ public class MainClass {
             System.out.println("6.Deserialize Sales Data");
             System.out.println("7.Exit");
 
-            int choice = integerValidation(sc);
+            int choice = integerValidation(sc); // integer validation
             switch (choice) {
                 case 1 :
                     System.out.println("Inventory Vehicles:");
@@ -101,7 +101,7 @@ public class MainClass {
                     String vehicleId = sc.nextLine();
 
                     Vehicle vehicleToPurchase = inventoryManagement.findVehicleById(vehicleId);
-                    if (vehicleToPurchase == null) {
+                    if (vehicleToPurchase == null) { //checks the vehicle is null
                         System.out.println("Vehicle not found in inventory");
                     } else {
                         try {
@@ -170,7 +170,7 @@ public class MainClass {
                     System.out.println("Input cannot be empty.");
                     continue;
                 }
-                DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+                DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd"); //formatting date input
                 return LocalDate.parse(dateInput, formatter);
             } catch (Exception e) {
                 System.out.println("Invalid date format");
