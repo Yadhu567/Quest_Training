@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c304d3fa-b057-4623-8372-e5494193874d" name="Changes" comment="" />
+    <list default="true" id="c304d3fa-b057-4623-8372-e5494193874d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/vehicleinventorymanagement/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/vehicleinventorymanagement/MainClass.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,6 +115,8 @@
     &quot;Application.StringMutable.executor&quot;: &quot;Run&quot;,
     &quot;Application.StudentConsumer.executor&quot;: &quot;Run&quot;,
     &quot;Application.TestClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadTest.executor&quot;: &quot;Run&quot;,
     &quot;Application.TreeMapClass.executor&quot;: &quot;Run&quot;,
     &quot;Application.TreeQueueExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.TreeSetClass.executor&quot;: &quot;Run&quot;,

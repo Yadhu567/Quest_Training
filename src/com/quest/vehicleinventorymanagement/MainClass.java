@@ -3,6 +3,7 @@ package com.quest.vehicleinventorymanagement;
 import java.io.IOException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeParseException;
 import java.util.List;
 import java.util.Scanner;
 
@@ -25,13 +26,14 @@ public class MainClass {
 
             System.out.print("Enter Price: ");
             double price = doubleValidation(sc); //double validation
+            sc.nextLine();
 
             System.out.print("Enter Manufacture Date: ");
             LocalDate manufactureDate = dateValidation(sc); //date validation
 
             System.out.print("Enter Seating Capacity: ");
             int seatingCapacity = integerValidation(sc); //integer validation
-            sc.nextLine();
+            sc.nextLine(); // clear input
 
             Vehicle car = new Car(id, brand, model, price, manufactureDate, seatingCapacity);
             inventoryManagement.addVehicle(car);
@@ -56,7 +58,7 @@ public class MainClass {
 
             System.out.print("Enter Engine Capacity in cc: ");
             int engineCapacity = integerValidation(sc); // integer validation
-            sc.nextLine();
+            sc.nextLine();// clear input
 
             Vehicle bike = new Bike(id, brand, model, price, manufactureDate, engineCapacity);
             inventoryManagement.addVehicle(bike);
@@ -72,6 +74,7 @@ public class MainClass {
             System.out.println("7.Exit");
 
             int choice = integerValidation(sc); // integer validation
+            sc.nextLine(); // clear input
             switch (choice) {
                 case 1 :
                     System.out.println("Inventory Vehicles:");
@@ -161,19 +164,15 @@ public class MainClass {
         }
         return sc.nextDouble();
     }
-    //Date validation
-    private static  LocalDate dateValidation(Scanner sc) {
+    // Date validation
+    private static LocalDate dateValidation(Scanner sc) {
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
         while (true) {
             try {
-                String dateInput = sc.nextLine();
-                if (dateInput==null) {
-                    System.out.println("Input cannot be empty.");
-                    continue;
-                }
-                DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd"); //formatting date input
+                String dateInput = sc.nextLine().trim();
                 return LocalDate.parse(dateInput, formatter);
-            } catch (Exception e) {
-                System.out.println("Invalid date format");
+            } catch (DateTimeParseException e) {
+                System.out.println("Invalid date format. Please use yyyy-MM-dd:");
             }
         }
     }
