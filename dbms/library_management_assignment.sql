@@ -81,7 +81,7 @@ select first_name,last_name,email from borrowers where borrower_id in
 (select borrower_id from loans where loan_date>'2024-01-01');
 
 --Update the price of the book with title = 'The Great Gatsby' to 25.00.
-update books set price=20.55 where title='The Great Gatsby';
+update books set price=25.00 where title='The Great Gatsby';
 
 --Delete the book from the Books table where title = 'Moby Dick'.
 delete from Loans where book_id = ( select book_id from Books where title = 'moby dick');
