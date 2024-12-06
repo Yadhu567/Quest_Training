@@ -11,7 +11,7 @@ public class InventoryManagement {
     }
 
     public void addVehicle(Vehicle vehicle) {
-        if (vehicle != null) {
+        if (vehicle != null) { //checks vehicle is null
             vehicles.add(vehicle);
         } else {
             System.out.println("vehicle cannot be null");
@@ -19,14 +19,15 @@ public class InventoryManagement {
     }
 
     public List<Vehicle> getVehicles(){
-        if (vehicles.isEmpty()) {
+        if (vehicles.isEmpty()) { //checks vehicle list is empty
             System.out.println("The vehicle list is empty.");
             return new ArrayList<>();
         }
         return vehicles;
     }
+
     public Vehicle findVehicleById(String vehicleId){
-        if(vehicleId==null){
+        if(vehicleId==null){ //checks vehicle id is null
             System.out.println("vehicle id cannot be null");
             return null;
         }
@@ -48,6 +49,7 @@ public class InventoryManagement {
                 .filter(v->v.getBrand().equals(brand))
                 .toList();
 
+        // display filtered vehicles
         System.out.println("The vehicles in the "+brand+" are:");
         for(Vehicle vehicle:filteredVehicles){
             System.out.println(vehicle);

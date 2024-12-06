@@ -11,11 +11,14 @@ public class SalesManagement {
         salesMap=new HashMap<>();
         this.inventory= inventory;
     }
+
     public void purchaseVehicle(Customer customer, Vehicle vehicle) throws VehicleNotFoundException {
+        // check customer or vehicle is null
         if (customer == null || vehicle == null) {
             System.out.println("customer or vehicle cannot be empty");
             return;
         }
+        // checks vehicle in inventory
         if(!inventory.getVehicles().contains(vehicle)){
             throw new VehicleNotFoundException("this vehicle not available in inventory");
         }
@@ -25,6 +28,7 @@ public class SalesManagement {
 
         Set<Vehicle> vehicleSet = salesMap.get(customer);
 
+        // checks vehicle set is empty
         if (vehicleSet == null) {
             vehicleSet = new HashSet<>();
             salesMap.put(customer, vehicleSet);
@@ -41,9 +45,10 @@ public class SalesManagement {
 
     public void deserializeSalesData(String fileName) throws IOException, ClassNotFoundException {
         try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream(fileName))) {
-            salesMap = (Map<Customer, Set<Vehicle>>) ois.readObject();
+            salesMap = (Map<Customer, Set<Vehicle>>) ois.readObject(); // typecasting the data
         }
     }
+
     public void purchasesVehicleSortedByPrice(){
         List<Vehicle> filteredVehicles= salesMap.values().stream()
                 .flatMap(Set::stream)
@@ -51,6 +56,8 @@ public class SalesManagement {
                 .toList();
 
         System.out.println("vehicles purchased by customers sorted by price in descending order ");
+
+        // display the filtered vehicles
         for(Vehicle vehicle:filteredVehicles){
             System.out.println(vehicle);
         }
