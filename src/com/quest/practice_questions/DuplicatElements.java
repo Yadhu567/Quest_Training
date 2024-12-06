@@ -2,7 +2,7 @@ package com.quest.practice_questions;
 
 public class DuplicatElements {
     public static void main(String[] args) {
-        int[] arr = {1,4,3,54,34,33,5,4,3};
+        int[] arr = {1,4,3,54,34,33,5,4,3,4};
         int count=0;
 //        for(int i = 0; i<arr.length; i++){
 //            for(int j = i+1; j<arr.length; j++){
@@ -39,14 +39,17 @@ public class DuplicatElements {
         boolean[] flag=new boolean[arr.length];
         for(int i=0;i< arr.length;i++){
             counter=0;
+            if(flag[i]){
+                continue;
+            }
 
             for(int j=0;j< arr.length;j++){
                 if(arr[i]==arr[j]){
                     counter++;
-                    flag[i]=true;
+                    flag[j]=true;
                 }
             }
-            if(counter>1&&!flag[i]){
+            if(counter>1){
                 System.out.println(arr[i]);
             }
         }

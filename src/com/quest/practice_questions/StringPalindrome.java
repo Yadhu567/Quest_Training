@@ -20,8 +20,6 @@ public class StringPalindrome {
         else{
             System.out.println("string is not a palindrome");
         }
-        for(int i=0;i!='\0';i++){
 
-        }
     }
 }

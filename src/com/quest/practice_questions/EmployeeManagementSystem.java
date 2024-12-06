@@ -97,7 +97,7 @@ public class EmployeeManagementSystem {
             try {
                 salary = sc.nextDouble();
                 if (salary >= 0 && salary <= 100000) {   // condition to check valid salary or not
-                    break;
+                    return salary;
                 } else {
                     System.out.println("Invalid value, enter again!");
                 }
@@ -106,6 +106,6 @@ public class EmployeeManagementSystem {
                 sc.next(); // Clear the invalid input
             }
         }
-        return salary;
+
     }
 }
