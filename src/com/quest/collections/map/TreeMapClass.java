@@ -1,5 +1,6 @@
 package com.quest.collections.map;
 
+import java.util.Map;
 import java.util.TreeMap;
 
 public class TreeMapClass {
@@ -20,5 +21,10 @@ public class TreeMapClass {
         System.out.println(treeMap.containsKey(2));
         System.out.println(treeMap.remove(2));
         treeMap.clear();
+
+        for(Map.Entry<Integer,String> e:treeMap.entrySet()){
+            e.getKey();
+            e.getValue();
+        }
     }
 }

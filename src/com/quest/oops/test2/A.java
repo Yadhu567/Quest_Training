@@ -11,7 +11,9 @@ public class A extends B {
     void add(){
         this.add();
         System.out.println("A class Add Method with no arguments");
+
     }
+    int c =super.a;
     @Override
     void add(int a,int b){
         super.add(a,b);

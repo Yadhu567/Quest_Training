@@ -8,4 +8,5 @@ public interface Employee {
     default void details(){
         System.out.println("this is employee class");
     }
+    int fod = 0;
 }

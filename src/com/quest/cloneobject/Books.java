@@ -57,7 +57,7 @@ public class Books implements Comparable<Books> {
 
     @Override
     protected Object clone() throws CloneNotSupportedException {
-        Books clonedObject =(Books)super.clone(); //shallow copy
+        Books clonedObject =(Books) super.clone(); //shallow copy
         clonedObject.setBookId(new String(this.getBookId())); //deep copy
         clonedObject.setTitle(new String(this.getTitle())); //deep copy
         clonedObject.setAuthor(new String(this.getAuthor()));

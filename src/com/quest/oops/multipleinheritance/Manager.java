@@ -9,7 +9,6 @@ public class Manager implements Person,Employee {
     @Override
     public void displayDepartment(String dept) {
         System.out.println("this is the department"+dept);
-
     }
 
     @Override
@@ -20,6 +19,7 @@ public class Manager implements Person,Employee {
     @Override
     public void displayAge(int age) {
         System.out.println("age:"+age);
+
     }
 
     @Override
