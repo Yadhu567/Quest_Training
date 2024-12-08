@@ -96,7 +96,7 @@ public class PlayList implements PlayListOperations {
 
     @Override
     public void sortTracksByRating() {
-        tracks.sort(new TrackTitleComparator()); // for sorting by rating
+        tracks.sort(new TrackRatingComparator()); // for sorting by rating
         System.out.println("After sorting by rating:");
         displayTracks();
     }
