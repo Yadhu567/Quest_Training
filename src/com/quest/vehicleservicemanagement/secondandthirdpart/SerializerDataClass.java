@@ -1,4 +1,4 @@
-package com.quest.vehicleservicemanagement.secondpart;
+package com.quest.vehicleservicemanagement.secondandthirdpart;
 
 import java.io.*;
 import java.util.List;
@@ -10,7 +10,7 @@ public class SerializerDataClass {
     public static void serializeServiceData(Map<Customer, List<ServiceBooking>> bookingMap, String fileName) {
         try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(fileName))) {
             oos.writeObject(bookingMap);
-            System.out.println("Data successfully serialized to " + fileName);
+            System.out.println("data write to " + fileName);
         } catch (IOException e) {
             e.printStackTrace();
         }

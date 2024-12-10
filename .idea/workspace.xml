@@ -5,26 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c304d3fa-b057-4623-8372-e5494193874d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source.txt" beforeDir="false" afterPath="$PROJECT_DIR$/source.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/booksinventory/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/booksinventory/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/cloneobject/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/cloneobject/Books.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/list/LinkedListClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/list/LinkedListClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/list/LinkedListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/list/LinkedListExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/list/ListClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/list/ListClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/map/HashMapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/map/HashMapExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/map/LinkedHashMapClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/map/LinkedHashMapClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/map/TreeMapClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/map/TreeMapClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/queue/QueueClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/queue/QueueClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/set/HashSetClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/set/HashSetClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/set/LinkedHashSetClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/set/LinkedHashSetClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/set/TreeSetClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/set/TreeSetClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/consumerpredicate/StudentConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/consumerpredicate/StudentConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_problems/ListReverse1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_problems/ListReverse1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_problems/SecondLargest4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_problems/SecondLargest4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/string/StringBuilderMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/string/StringBuilderMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/quest/vehicleinventorymanagement/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/vehicleinventorymanagement/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/vehicleservicemanagement/firstpart/VehicleMainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/vehicleservicemanagement/firstpart/VehicleMainClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

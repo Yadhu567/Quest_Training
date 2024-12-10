@@ -90,15 +90,10 @@ public class VehicleMainClass {
 
 
         //stream apis
-        Vehicle oldestV= allVehicles.stream()
-                .min(Comparator.comparingInt(Vehicle::getYear)).get();
-        System.out.println("oldest vehicle "+oldestV);
+        Vehicle oldestVehicle= allVehicles.stream().min(Comparator.comparingInt(Vehicle::getYear)).get();
+        System.out.println("oldest vehicle "+oldestVehicle);
 
-        Map<String, Long> vehicleType = allVehicles.stream()
-                .collect(Collectors.groupingBy(
-                        vehicle -> vehicle instanceof ElectricVehicle ? "Electric" : "Combustion",
-                        Collectors.counting()
-                ));
+        Map<String, Long> vehicleType = allVehicles.stream().collect(Collectors.groupingBy(vehicle -> vehicle instanceof ElectricVehicle ? "Electric" : "Combustion", Collectors.counting()));
 
         System.out.println("Vehicles by Type:");
         vehicleType.forEach((type, count) -> System.out.println(type+" = "+count));

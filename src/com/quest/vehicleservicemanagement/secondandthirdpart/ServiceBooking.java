@@ -1,4 +1,4 @@
-package com.quest.vehicleservicemanagement.secondpart;
+package com.quest.vehicleservicemanagement.secondandthirdpart;
 
 
 import java.io.Serializable;

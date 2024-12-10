@@ -1,4 +1,4 @@
-package com.quest.vehicleservicemanagement.secondpart;
+package com.quest.vehicleservicemanagement.secondandthirdpart;
 import com.quest.vehicleservicemanagement.firstpart.Vehicle;
 
 import java.time.LocalDateTime;
