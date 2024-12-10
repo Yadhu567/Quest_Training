@@ -46,14 +46,13 @@ public class Books implements Comparable<Books> {
     public String getTitle() {
         return title;
     }
+
     public boolean isValid(){
         if(this.getBookId()!=null && this.isAvailable()){
             return true;
         }
         return false;
     }
-
-
 
     @Override
     protected Object clone() throws CloneNotSupportedException {

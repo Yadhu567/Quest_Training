@@ -11,7 +11,7 @@ public class ListClass {
     public static void main(String[] args) {
         ArrayList<Person> lst1= new ArrayList<>();
         ArrayList<Person> lst2= new ArrayList<>();
-        lst1.add(new Person("john",22,"m","9999"));
+        lst1.add(new Person("john",22,"m","937373999"));
         lst1.add(new Person("bob",24,"f","7845777"));
         for(Person p:lst1){
             if(p.getAge()>20){
@@ -30,8 +30,10 @@ public class ListClass {
         lst3.add(1);
         lst3.add(2);
         lst3.add(3);
-        lst3.add(5,3);
+        lst3.contains(2);
         lst3.add(null);
+        lst3.add(null);
+        System.out.println(lst3);
         System.out.println(lst3.get(1));
         System.out.println(lst3.contains(2));
 //        lst.remove(2);

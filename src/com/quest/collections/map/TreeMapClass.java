@@ -10,6 +10,7 @@ public class TreeMapClass {
         treeMap.put(2,"smith");
         treeMap.put(3,"ron");
         treeMap.put(4,"logan");
+//        treeMap.put(null,"logan"); //exception
 
         treeMap.forEach((k,v)->{
             System.out.println(k+" "+v);

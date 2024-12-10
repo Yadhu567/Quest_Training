@@ -1,0 +1,4 @@
+Total Revenue: 10100.0
+Service Counts:
+Battery change:1
+Oil change:1

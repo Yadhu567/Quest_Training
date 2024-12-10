@@ -1,8 +1,9 @@
 package com.quest.vehicleinventorymanagement;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 
-public class Vehicle {
+public class Vehicle implements Serializable {
     private String vehicleId;
     private String brand;
     private String model;

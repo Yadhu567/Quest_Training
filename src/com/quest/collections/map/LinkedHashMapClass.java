@@ -1,5 +1,6 @@
 package com.quest.collections.map;
 
+import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -16,6 +17,7 @@ public class LinkedHashMapClass {
         for(String s:linkedHashMap.values()){
             System.out.println(s);
         }
+
         for(Map.Entry<Integer,String> e:linkedHashMap.entrySet()){
             System.out.println(e.getKey()+" "+e.getValue());
         }

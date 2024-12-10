@@ -45,7 +45,7 @@ public class LinkedListExample {
         }
         for(int i=0;i<personList.size();i++){
             Person obj=personList.get(i);
-            System.out.print(obj.getName() + " ");
+            System.out.print(personList.get(i).getName() + " ");
             System.out.print(obj.getAge() + " ");
             System.out.print(obj.getGender() + " ");
             System.out.print(obj.getPhoneNUmber() + " ");

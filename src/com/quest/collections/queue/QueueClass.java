@@ -3,6 +3,8 @@ package com.quest.collections.queue;
 import java.util.Iterator;
 import java.util.PriorityQueue;
 
+
+
 public class QueueClass {
     public static void main(String[] args) {
         PriorityQueue<Integer> priorityQueue=new PriorityQueue<>();
@@ -19,6 +21,7 @@ public class QueueClass {
         while (itObj.hasNext()){
             System.out.println(itObj.next());
         }
+        //get method not available
         System.out.println(priorityQueue);
         System.out.println(priorityQueue.peek());
 

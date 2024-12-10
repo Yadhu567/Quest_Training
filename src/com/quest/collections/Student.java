@@ -1,5 +1,7 @@
 package com.quest.collections;
 
+import java.util.Comparator;
+
 public class Student implements Comparable<Student> {
     private int studentId;
     private String name;
@@ -9,6 +11,7 @@ public class Student implements Comparable<Student> {
         setName(name);
         setMarks(marks);
     }
+
 
     public int getStudentId() {
         return studentId;

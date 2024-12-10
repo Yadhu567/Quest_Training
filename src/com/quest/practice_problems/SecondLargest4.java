@@ -2,7 +2,7 @@ package com.quest.practice_problems;
 
 import java.util.ArrayList;
 
-public class SecondLargest4 {
+public class  SecondLargest4 {
     public static void main(String[] args) {
         ArrayList<Integer> arrayList=new ArrayList<>();
         arrayList.add(2);
@@ -18,7 +18,7 @@ public class SecondLargest4 {
             if(arrayList.get(i)>first){
                 second=first;
                 first=arrayList.get(i);
-            }else if(arrayList.get(i)>second && first!=second){
+            }else if(arrayList.get(i)>second && first!= arrayList.get(i)){
                 second=arrayList.get(i);
             }
         }

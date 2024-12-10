@@ -10,6 +10,7 @@ public class LinkedHashSetClass {
         lhs.add(3f);
         lhs.add(null);
         lhs.add(null);
+
         for(Float i:lhs){
             System.out.println(i);
         }

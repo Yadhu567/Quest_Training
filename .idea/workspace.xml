@@ -6,6 +6,25 @@
   <component name="ChangeListManager">
     <list default="true" id="c304d3fa-b057-4623-8372-e5494193874d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source.txt" beforeDir="false" afterPath="$PROJECT_DIR$/source.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/booksinventory/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/booksinventory/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/cloneobject/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/cloneobject/Books.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/list/LinkedListClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/list/LinkedListClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/list/LinkedListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/list/LinkedListExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/list/ListClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/list/ListClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/map/HashMapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/map/HashMapExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/map/LinkedHashMapClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/map/LinkedHashMapClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/map/TreeMapClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/map/TreeMapClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/queue/QueueClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/queue/QueueClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/set/HashSetClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/set/HashSetClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/set/LinkedHashSetClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/set/LinkedHashSetClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/collections/set/TreeSetClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/collections/set/TreeSetClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/consumerpredicate/StudentConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/consumerpredicate/StudentConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_problems/ListReverse1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_problems/ListReverse1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/practice_problems/SecondLargest4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/practice_problems/SecondLargest4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/string/StringBuilderMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/string/StringBuilderMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/quest/vehicleinventorymanagement/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/quest/vehicleinventorymanagement/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,103 +60,113 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ArrayEqualCheck.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayExamples.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayReplacement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArraySwap.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BufferedClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CharacterFrequency11.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CollectionImpl.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CollectionPractice.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConsumerPredicateExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DateTimeClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DivisibleByThree8.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DuplicatElements.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DuplicateSet5.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EmployeeMap15.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EmployeeSorting.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EmployeeStreamApis.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EvenList2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FIleExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileOperaions2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileOperations.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FrequencyOccurence.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FrequencyOccurrence.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GarbageClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HashMapExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HashSetClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IndianDate.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JavaMethodExamples.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedHashMapClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedHashSetClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedListClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListPartition.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListReverse.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListReverse1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestSubString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Mainclass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MapExampleClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MapSorting12.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MapValueSortting.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MatrixExamples.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MatrixReverse.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MergeList3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MergeTwoList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OccurenceCount5.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OutOfMemmoryError.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PairElements.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PatternPrinting.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PriorityQueueClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProductMap13.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PropertiesLoading.executor&quot;: &quot;Run&quot;,
-    &quot;Application.QueueClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RandomClass.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.SecondLargest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SecondLargest4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SetClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SetDuplicate9.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SetExampleClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SetExistence7.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SetOperations6.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SquarePattern.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StackClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StackOverFlowError.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StarPyramid.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StreamClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StreamClassExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringDuplicate.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringMutable.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StudentConsumer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TreeMapClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TreeQueueExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TreeSetClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WordFrequency.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WordFrequency14.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/athul/IdeaProjects/Quest_Training/src/com/quest/samplequestions&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArrayEqualCheck.executor": "Run",
+    "Application.ArrayExamples.executor": "Run",
+    "Application.ArrayReplacement.executor": "Run",
+    "Application.ArraySwap.executor": "Run",
+    "Application.BankAccountClass.executor": "Run",
+    "Application.BufferedClass.executor": "Run",
+    "Application.CharacterFrequency11.executor": "Run",
+    "Application.CollectionImpl.executor": "Run",
+    "Application.CollectionPractice.executor": "Run",
+    "Application.ConsumerPredicateExample.executor": "Run",
+    "Application.DateTimeClass.executor": "Run",
+    "Application.DivisibleByThree8.executor": "Run",
+    "Application.DuplicatElements.executor": "Run",
+    "Application.DuplicateSet10.executor": "Run",
+    "Application.DuplicateSet5.executor": "Run",
+    "Application.EmployeeMap15.executor": "Run",
+    "Application.EmployeeSorting.executor": "Run",
+    "Application.EmployeeStreamApis.executor": "Run",
+    "Application.EvenList2.executor": "Run",
+    "Application.FIleExample.executor": "Run",
+    "Application.FileExample.executor": "Run",
+    "Application.FileOperaions2.executor": "Run",
+    "Application.FileOperations.executor": "Run",
+    "Application.FileProcessorClass.executor": "Run",
+    "Application.FrequencyOccurence.executor": "Run",
+    "Application.FrequencyOccurrence.executor": "Run",
+    "Application.GarbageClass.executor": "Run",
+    "Application.HashMapExample.executor": "Run",
+    "Application.HashSetClass.executor": "Run",
+    "Application.IndianDate.executor": "Run",
+    "Application.JavaMethodExamples.executor": "Run",
+    "Application.LinkedHashMapClass.executor": "Run",
+    "Application.LinkedHashSetClass.executor": "Run",
+    "Application.LinkedListClass.executor": "Run",
+    "Application.ListClass.executor": "Run",
+    "Application.ListExample.executor": "Run",
+    "Application.ListPartition.executor": "Run",
+    "Application.ListReverse.executor": "Run",
+    "Application.ListReverse1.executor": "Run",
+    "Application.LongestSubString.executor": "Run",
+    "Application.MainClass.executor": "Run",
+    "Application.Mainclass.executor": "Run",
+    "Application.MapExampleClass.executor": "Run",
+    "Application.MapSorting12.executor": "Run",
+    "Application.MapValueSortting.executor": "Run",
+    "Application.MatrixExamples.executor": "Run",
+    "Application.MatrixMultiplication.executor": "Run",
+    "Application.MatrixReverse.executor": "Run",
+    "Application.MergeList3.executor": "Run",
+    "Application.MergeTwoList.executor": "Run",
+    "Application.OccurenceCount5.executor": "Run",
+    "Application.OutOfMemmoryError.executor": "Run",
+    "Application.PairElements.executor": "Run",
+    "Application.PatternPrinting.executor": "Run",
+    "Application.PriorityQueueClass.executor": "Run",
+    "Application.ProducerConsumerClass.executor": "Run",
+    "Application.ProductMap13.executor": "Run",
+    "Application.PropertiesLoading.executor": "Run",
+    "Application.QueueClass.executor": "Run",
+    "Application.RandomClass.executor": "Debug",
+    "Application.SecondLargest.executor": "Run",
+    "Application.SecondLargest4.executor": "Run",
+    "Application.ServiceMainClass.executor": "Run",
+    "Application.SetClass.executor": "Run",
+    "Application.SetDuplicate9.executor": "Run",
+    "Application.SetExampleClass.executor": "Run",
+    "Application.SetExistence7.executor": "Run",
+    "Application.SetOperations6.executor": "Run",
+    "Application.SquarePattern.executor": "Run",
+    "Application.StackClass.executor": "Run",
+    "Application.StackOverFlowError.executor": "Run",
+    "Application.StarPyramid.executor": "Run",
+    "Application.StreamClass.executor": "Run",
+    "Application.StreamClassExample.executor": "Run",
+    "Application.StringDuplicate.executor": "Run",
+    "Application.StringMutable.executor": "Run",
+    "Application.StudentConsumer.executor": "Run",
+    "Application.TestClass.executor": "Run",
+    "Application.ThreadExample.executor": "Run",
+    "Application.ThreadTest.executor": "Run",
+    "Application.TreeMapClass.executor": "Run",
+    "Application.TreeQueueExample.executor": "Run",
+    "Application.TreeSetClass.executor": "Run",
+    "Application.VehicleMainClass.executor": "Run",
+    "Application.WordFrequency.executor": "Run",
+    "Application.WordFrequency14.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/athul/Downloads/collections_pending/collections_pending/collections.md",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\athul\IdeaProjects\Quest_Training\src\com\quest\samplequestions" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.quest.collections" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.quest.vehicleservicemanagement" />
     </key>
   </component>
   <component name="RunManager">

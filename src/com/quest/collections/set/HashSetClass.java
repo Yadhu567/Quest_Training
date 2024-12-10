@@ -16,7 +16,7 @@ public class HashSetClass {
         for(Integer i:hashSet){
             System.out.println(i);
         }
-
+        //get method not available
         System.out.println(hashSet.remove(2));
         System.out.println(hashSet.size());
         System.out.println(hashSet.isEmpty());
