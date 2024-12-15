@@ -35,6 +35,8 @@ public class EmployeeStreamApis {
 
         System.out.println(salaryRangeList);
 
+        employeeList.stream().sorted(Comparator.comparingDouble(Employee::getSalary)).forEach(System.out::println);
+
         Employee e= employeeList
                 .stream()
                 .max(Comparator.comparingDouble(Employee::getSalary)).get();

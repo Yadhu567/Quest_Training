@@ -48,7 +48,7 @@ public class Mainclass {
                     weatherObject.maxHumCity();
                     break;
                 case 6:
-                    weatherObject.cityByWeatherConditon();
+                    weatherObject.cityByWeatherCondition();
                     break;
                 case 7:
                     weatherObject.averageTemp();

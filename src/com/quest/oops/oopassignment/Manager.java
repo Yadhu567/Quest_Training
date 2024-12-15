@@ -9,7 +9,6 @@ public class Manager extends Employee implements TeamSize{
 
     @Override
     public void teamSize() {
-        super.displayDetails();
-        System.out.println("Team Size: " + teamSize);
+        System.out.println(super.toString()+ "Team Size: " + teamSize);
     }
 }

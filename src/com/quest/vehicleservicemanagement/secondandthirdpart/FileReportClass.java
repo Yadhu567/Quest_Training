@@ -47,8 +47,7 @@ public class FileReportClass {
     }
 
     public static void topCustomer(Map<Customer, List<ServiceBooking>> bookingMap) {
-        Customer topSpender = bookingMap.entrySet().stream()
-                .max((e1, e2) -> Double.compare(e1.getValue().stream().mapToDouble(ServiceBooking::getCost).sum(), e2.getValue().stream().mapToDouble(ServiceBooking::getCost).sum())).map(Map.Entry::getKey).orElse(null);
+        Customer topSpender = bookingMap.entrySet().stream().max((e1, e2) -> Double.compare(e1.getValue().stream().mapToDouble(ServiceBooking::getCost).sum(), e2.getValue().stream().mapToDouble(ServiceBooking::getCost).sum())).map(Map.Entry::getKey).orElse(null);
 
         if (topSpender != null) {
             System.out.println("top spending customer is "+topSpender);

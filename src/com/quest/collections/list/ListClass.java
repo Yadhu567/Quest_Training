@@ -2,10 +2,7 @@ package com.quest.collections.list;
 
 import com.quest.collections.Person;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Iterator;
+import java.util.*;
 
 public class ListClass {
     public static void main(String[] args) {
@@ -36,6 +33,7 @@ public class ListClass {
         System.out.println(lst3);
         System.out.println(lst3.get(1));
         System.out.println(lst3.contains(2));
+        lst3.stream().max(Comparator.comparingInt(Integer::intValue));
 //        lst.remove(2);
 //        lst3.clear();
        /* for(int i:lst3){

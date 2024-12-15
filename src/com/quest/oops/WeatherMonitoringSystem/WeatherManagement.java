@@ -11,8 +11,17 @@ public class WeatherManagement implements WeatherDetails {
 
     public void addCityWeatherData(CityWeatherData city) {
         if (cityCount<cities.length) {
-            cities[cityCount++]=city;
-            System.out.println("Weather data of city added successfully!");
+            boolean flag=false;
+            for(CityWeatherData c:cities) {
+                if (c.getCityName().equals(city.getCityName())) {
+                    System.out.println("city with same name already exists");
+                    flag = true;
+                }
+            }
+            if(!flag) {
+                    cities[cityCount++] = city;
+                    System.out.println("Weather data of city added successfully!");
+            }
         } else {
             System.out.println("Maximum number of cities reached");
         }
@@ -81,7 +90,7 @@ public class WeatherManagement implements WeatherDetails {
     }
 
     @Override
-    public void cityByWeatherConditon() {
+    public void cityByWeatherCondition() {
         if (cityCount==0) {
             System.out.println("No cities to display weather data.");
             return;

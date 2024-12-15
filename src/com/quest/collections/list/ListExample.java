@@ -5,9 +5,14 @@ import com.quest.collections.Person;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Scanner;
+import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.concurrent.CopyOnWriteArraySet;
+
 public class ListExample {
     public static void main(String[] args) {
         ArrayList<Person> personList=new ArrayList<>();
+        CopyOnWriteArrayList<Integer> personLIs=new CopyOnWriteArrayList<>();
+        CopyOnWriteArraySet<String> perosn=new CopyOnWriteArraySet<>();
         Scanner sc=new Scanner(System.in);
         System.out.println("enter details for 3 person's");
         for(int i=0;i<3;i++){

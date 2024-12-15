@@ -9,8 +9,9 @@ public class DogClass extends Animal{
     public void bark(){
         System.out.println("Dog can Bark");
     }
+
     @Override
-   public void getInfo(){
+    public void getInfo(){
         super.getInfo();
         System.out.println("The type of dog is " + this.type);
 

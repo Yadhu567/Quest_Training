@@ -27,5 +27,7 @@ public class ArrayExamples {
                 System.out.println(j);
             }
         }
+        int[] arr4=new int[3];
+        System.out.println(arr4.length);
     }
 }

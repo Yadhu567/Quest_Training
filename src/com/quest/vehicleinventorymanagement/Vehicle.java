@@ -3,7 +3,7 @@ package com.quest.vehicleinventorymanagement;
 import java.io.Serializable;
 import java.time.LocalDate;
 
-public class Vehicle implements Serializable {
+public class Vehicle implements Serializable,Cloneable {
     private String vehicleId;
     private String brand;
     private String model;

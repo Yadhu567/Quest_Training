@@ -28,7 +28,7 @@ public class BookingMapping {
     public List<ServiceBooking> getCustomerBooking(Customer customer){
         return bookingMap.getOrDefault(customer, new ArrayList<>());
     }
-    //getters
+    //getter method
     public Map<Customer, List<ServiceBooking>> getBookingMap() {
         return bookingMap;
     }

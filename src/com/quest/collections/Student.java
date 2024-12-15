@@ -43,7 +43,7 @@ public class Student implements Comparable<Student> {
 
     @Override
     public boolean equals(Object obj) {
-        Student s=(Student) obj;
+        Student s=(Student) obj; // typecast in both equals and clone
         return this.getStudentId()==s.getStudentId();
     }
 //we can use containsAll method

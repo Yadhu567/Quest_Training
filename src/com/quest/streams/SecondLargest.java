@@ -14,7 +14,7 @@ public class SecondLargest {
 
 
         Stream<Integer> integerStream=Stream.of(2,4,3,3,4,6,7,9,2);
-        Optional<Integer> secondMax=integerStream.distinct().sorted(Comparator.reverseOrder()).skip(1).findFirst();
+        Optional<Integer> secondMax=arrayList.stream().distinct().sorted(Comparator.reverseOrder()).skip(1).findFirst();
 
         System.out.println(secondMax.get());
 

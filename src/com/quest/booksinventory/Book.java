@@ -11,7 +11,9 @@ public class Book {
         setAuthor(author);
         setPrice(price);
         setStock(stock);
-    }// setters and getters
+    }
+
+    // setters and getters
     public String getTitle(){
         return title;
     }

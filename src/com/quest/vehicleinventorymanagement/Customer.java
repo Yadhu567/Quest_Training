@@ -7,6 +7,7 @@ public class Customer {
     private final String customerId;
     private final String name;
     private final String email;
+    private Vehicle vehiobj;
     private final List<PurchasedVehicle> purchasedVehicles;
 
     public Customer(String customerId, String name, String email) {

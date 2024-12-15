@@ -4,7 +4,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Comparator;
 //POJO class-plain old java object class
-public class Books implements Comparable<Books> {
+public class Books implements Comparable<Books>,Cloneable {
     private String bookId;
     private String title;
     private String author;
@@ -74,6 +74,12 @@ public class Books implements Comparable<Books> {
                 '}';
     }
 
+    // for avoiding duplicate and to sort objects
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
+
     @Override
     public int hashCode() {
         return super.hashCode();
@@ -82,9 +88,10 @@ public class Books implements Comparable<Books> {
 
     @Override
     public int compareTo(Books o) {
-        return 0;
+        return this.getTitle().compareTo(o.getBookId());
     }
 
+     //  to sort objects
     Comparator<Books> comparator=Comparator.comparing(Books::getBookId);
 
 }

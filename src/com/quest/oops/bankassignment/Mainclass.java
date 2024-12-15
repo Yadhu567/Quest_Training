@@ -66,6 +66,7 @@ public class Mainclass {
         }
         return sc.nextInt();
     }
+
     // double validation
     private static Double doubleValidation(Scanner sc) {
         while (!sc.hasNextDouble()) {

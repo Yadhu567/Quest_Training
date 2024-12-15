@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Consumer;
+import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
 
@@ -59,5 +60,12 @@ public class StudentConsumer {
         Student std5=supplier1.get();
         System.out.println(std5.getId()+" "+std5.getName());
 
+        Function<Integer,String> newfun=(s)-> {
+            String k = "hello";
+            k=k+s;
+            return k;
+        };
+
+        System.out.println(newfun.apply(2));
     }
 }

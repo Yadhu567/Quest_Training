@@ -8,6 +8,13 @@ public class MainClass implements SampleInterface{
         obj.add();
         MainClass obj2=new MainClass();
         obj2.add();
+        SampleInterface obj3=new SampleInterface() {
+            @Override
+            public void add() {
+                System.out.println("hoi");
+            }
+        };
+        obj3.add();
     }
 
     @Override

@@ -6,11 +6,12 @@ import java.util.Scanner;
 
 public class FileExample {
     public static void main(String[] args)   {
+
         File fileObj = new File("source.txt");
         try {
             Exception e=new Exception();
             if (fileObj.createNewFile()||fileObj.exists()) {
-                FileWriter fileWrtObj = new FileWriter(fileObj);
+                FileWriter fileWrtObj = new FileWriter(fileObj,true);
                 fileWrtObj.write("hello world");
                 fileWrtObj.append("hai");
                 fileWrtObj.close();

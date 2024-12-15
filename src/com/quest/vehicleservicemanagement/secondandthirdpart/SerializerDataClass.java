@@ -11,6 +11,7 @@ public class SerializerDataClass {
         try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(fileName))) {
             oos.writeObject(bookingMap);
             System.out.println("data write to " + fileName);
+            oos.flush();
         } catch (IOException e) {
             e.printStackTrace();
         }

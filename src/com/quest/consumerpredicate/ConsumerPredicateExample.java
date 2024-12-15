@@ -3,6 +3,7 @@ package com.quest.consumerpredicate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Consumer;
+import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
 
@@ -30,6 +31,14 @@ public class ConsumerPredicateExample {
         }
         Supplier<List<Integer>> supplier = () -> transformedList;
         System.out.println("new list: "+supplier.get());
+
+        Function<Integer,String> fun=(i)->{
+            return i+"";
+        };
+
+        int a=3;
+
+        fun.apply(a);
 
     }
 }

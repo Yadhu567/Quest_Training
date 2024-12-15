@@ -1,7 +1,12 @@
 package com.quest.oops.test1;
 
-public class NonAbstractClass  {
+public class NonAbstractClass extends AbstractClass  {
+    @Override
+    public void drive() {
+        System.out.println("hello");
+    }
+
     public void add(){
-        System.out.println("this non abstract class");
+        super.add();
     }
 }

@@ -5,6 +5,7 @@ public interface Employee {
 
     void displayDepartment(String dept);
 
+
     default void details(){
         System.out.println("this is employee class");
     }

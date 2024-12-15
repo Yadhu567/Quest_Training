@@ -24,7 +24,7 @@ public class Manager implements Person,Employee {
 
     @Override
     public void details() {
-        Employee.super.details();  // super to access the parent class here two parent interface so need to specify the which one
+        Employee.super.details();  // super to access the parent class here two parent interfaces has same name for method so need to specify the which one
         Person.super.details();
     }
 }

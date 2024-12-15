@@ -13,6 +13,7 @@ public class EvenList2 {
         arrayList.add(3);
         arrayList.add(6);
 
+
         Iterator<Integer> itObj=arrayList.iterator();
         while (itObj.hasNext()){
             int i= itObj.next();

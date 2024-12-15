@@ -24,7 +24,7 @@ public class MainClass implements DisplayPriceAboveBooks{
             sc.nextLine(); //clears input
         }
         //special edition books
-        SpecialEditionBook[] specilbook=new SpecialEditionBook[5];
+        SpecialEditionBook[] specialbook=new SpecialEditionBook[5];
         System.out.println("enter details of special edition books");
         for(int i=3;i<5;i++){
             System.out.println("enter book title");

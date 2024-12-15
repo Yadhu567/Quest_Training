@@ -9,10 +9,12 @@ public class StreamClass {
             System.out.println("file created successfully");
             int c;
             String s1="input as streams";
+            ObjectOutputStream oss=new ObjectOutputStream(new FileOutputStream("s.txt"));
+
             FileOutputStream outObj= new FileOutputStream("source.txt",true);  // if object created removes all contents
             outObj.write(s1.getBytes());
-            outObj.write(strmObj.read());
-            while ((c=strmObj.read())!=-1) {
+            outObj.write(strmObj.read()); //return byte array
+            while ((c=strmObj.read())!=-1) { //return individual integer
                 System.out.print((char)c);
             }
 

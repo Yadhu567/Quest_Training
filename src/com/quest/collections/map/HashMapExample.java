@@ -3,7 +3,7 @@ package com.quest.collections.map;
 import java.util.HashMap;
 import java.util.Map;
 
-public class HashMapExample {
+public class  HashMapExample {
     public static void main(String[] args) {
 
         HashMap<Integer,String> hashMap=new HashMap<>();

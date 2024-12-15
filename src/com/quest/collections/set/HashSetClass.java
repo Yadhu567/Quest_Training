@@ -13,6 +13,7 @@ public class HashSetClass {
         hashSet.add(1);
         hashSet.add(null);
         hashSet.add(null);
+
         for(Integer i:hashSet){
             System.out.println(i);
         }

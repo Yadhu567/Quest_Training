@@ -35,6 +35,7 @@ public class SalesManagement {
         }
 
         vehicleSet.add(vehicle);
+
     }
 
     public void serializeSalesData(String fileName) throws IOException {
@@ -51,7 +52,7 @@ public class SalesManagement {
 
     public void purchasesVehicleSortedByPrice(){
         List<Vehicle> filteredVehicles= salesMap.values().stream()
-                .flatMap(Set::stream)
+                .flatMap(Set ::stream)
                 .sorted((v1, v2) -> Double.compare(v2.getPrice(), v1.getPrice()))
                 .toList();
 

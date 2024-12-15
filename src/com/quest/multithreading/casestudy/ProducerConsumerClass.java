@@ -1,25 +1,29 @@
 package com.quest.multithreading.casestudy;
 
-
 import java.util.ArrayList;
 
 class ArrayBuffer{
     private int size;
     private ArrayList<Integer> buffer;
+
     public ArrayBuffer(int size){
         this.size=size;
+        this.buffer = new ArrayList<>();
     }
+
     public synchronized void produce(int item){
         if(buffer.size()==size){
             System.out.println("buffer is full");
         }
         buffer.add(item);
+        System.out.println(item +" produced in buffer");
     }
-    public synchronized void consume(int item){
+    public synchronized void consume(){
         if(buffer==null){
             System.out.println("buffer is empty");
         }
-        buffer.remove(item);
+        int item=buffer.remove(0);
+        System.out.println(item +" consumed from buffer");
     }
 }
 class Producer extends Thread{
@@ -37,19 +41,21 @@ class Producer extends Thread{
         buffer.produce(item);
     }
 }
+
+
 class Consumer extends Thread{
 
     private  ArrayBuffer buffer;
-    private int item;
 
-    public Consumer(ArrayBuffer buffer,int item) {
+
+    public Consumer(ArrayBuffer buffer) {
         this.buffer = buffer;
-        this.item=item;
+
     }
 
     @Override
     public void run() {
-        buffer.consume(item);
+        buffer.consume();
     }
 }
 
@@ -58,10 +64,10 @@ public class ProducerConsumerClass {
         ArrayBuffer arrayBuffer=new ArrayBuffer(5);
 
         Producer t1=new Producer(arrayBuffer,4);
-        Producer t2=new Producer(arrayBuffer,8);
-        Producer t3=new Producer(arrayBuffer,9);
+        Producer t2=new Producer(arrayBuffer,7);
+        Producer t3=new Producer(arrayBuffer,2);
 
-        Consumer t4=new Consumer(arrayBuffer,2);
+        Consumer t4=new Consumer(arrayBuffer);
 
         t1.start();
 
@@ -70,6 +76,7 @@ public class ProducerConsumerClass {
         t3.start();
 
         t4.start();
+
 
         try {
             t4.join();

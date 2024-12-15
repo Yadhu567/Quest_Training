@@ -8,5 +8,6 @@ public abstract class AbstractClass {
     AbstractClass(){
         System.out.println("abstract constructor");
         add();
+
     }
 }
