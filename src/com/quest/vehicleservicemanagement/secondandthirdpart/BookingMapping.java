@@ -7,14 +7,14 @@ import java.util.List;
 import java.util.Map;
 
 public class BookingMapping {
-    private  Map<Customer, List<ServiceBooking>> bookingMap=new HashMap<>();
+
+    private final Map<Customer, List<ServiceBooking>> bookingMap=new HashMap<>();
 
     public void addBooking(Customer customer,ServiceBooking serviceBooking) throws InvalidBookingException {
        // for handling exception
         if(serviceBooking.getServiceDate().isBefore(LocalDateTime.now())){
             throw new InvalidBookingException("Service date cannot be past date");
         }
-
 
         for (List<ServiceBooking> booking : bookingMap.values()) {
             if (booking.stream().anyMatch(b -> b.getBookingId().equals(serviceBooking.getBookingId()))) {

@@ -5,6 +5,19 @@ public class Car implements Vehicle {
         Car obj = new Car();
         obj.engine();
         obj.horn();
+
+
+        AbstractB obj2= new AbstractB() {
+            @Override
+            void add() {
+
+            }
+
+            @Override
+            void substract() {
+
+            }
+        };
     }
     @Override
     public void engine() {
